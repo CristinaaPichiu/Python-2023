@@ -4,6 +4,7 @@ def countvowels(string):
         if char in "aeiouAEIOU":
             num_vowels = num_vowels+1
     return num_vowels
+
 if __name__ == "__main__":
 
  print(countvowels("Python"))

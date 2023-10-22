@@ -1,39 +1,51 @@
-def spiral_matrix_to_string(matrix):
-    if not matrix:
-        return ""
+def spiral_order(m, n, a):
+    k = 0
+    l = 0
+    result = []  # Inițializăm o listă goală pentru a stoca caracterele în ordine spirală
 
-    result = ""
-    top, bottom, left, right = 0, len(matrix) - 1, 0, len(matrix[0]) - 1
+    while (k < m and l < n):
+        # Print the first row from the remaining rows
+        for i in range(l, n):
+            result.append(a[k][i])
 
+        k += 1
 
-    while top <= bottom and left <= right:
-        for i in range(left, right + 1):
-            result += matrix[top][i]
-        top += 1
+        # Print the last column from the remaining columns
+        for i in range(k, m):
+            result.append(a[i][n - 1])
 
-        for i in range(top, bottom + 1):
-            result += matrix[i][right]
-        right -= 1
+        n -= 1
 
-        if top <= bottom:
-            for i in range(right, left - 1, -1):
-                result += matrix[bottom][i]
-            bottom -= 1
+        # Print the last row from the remaining rows
+        if (k < m):
+            for i in range(n - 1, (l - 1), -1):
+                result.append(a[m - 1][i])
 
-        if left <= right:
-            # Traverse leftmost column
-            for i in range(bottom, top - 1, -1):
-                result += matrix[i][left]
-            left += 1
+            m -= 1
 
-    return result
+        # Print the first column from the remaining columns
+        if (l < n):
+            for i in range(m - 1, k - 1, -1):
+                result.append(a[i][l])
 
-matrix = [
-    ['f', 'i', 'r', 's'],
-    ['n', '_', 'l', 't'],
-    ['o', 'b', 'a', '_'],
-    ['h', 't', 'y', 'p']
-]
+            l += 1
+
+    '''
+     ''.join(result) ia fiecare element din lista result și le concatenează într-un singur șir de caractere
+        fără să adauge niciun separator între ele.
+    '''
+
+    return ''.join(result)  # Returnăm șirul rezultat
+
 if __name__ == "__main__":
- result = spiral_matrix_to_string(matrix)
-print(result)
+    n = 4
+    m = 4
+    matrix = [
+        ['f', 'i', 'r', 's'],
+        ['n', '_', 'l', 't'],
+        ['o', 'b', 'a', '_'],
+        ['h', 't', 'y', 'p']
+    ]
+
+    spiral_string = spiral_order(n, m, matrix)
+    print(spiral_string)

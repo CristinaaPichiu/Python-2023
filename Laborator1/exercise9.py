@@ -8,7 +8,7 @@ def most_common_letter(s):
 
     for letter in s:
         if letter.isalpha():
-            count = s.count(letter)
+            count = s.count(letter) #se numără de câte ori apare în șirul s folosind metoda .count()
             if count > max_count:
                 most_common = letter
                 max_count = count
