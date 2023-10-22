@@ -11,6 +11,8 @@ def compose(notes, moves, start_position):
         composition.append(notes[current_position])
         current_position = (current_position + move) % len(notes)
 
+    composition.append(notes[current_position])
+
     return composition
 
 
@@ -20,4 +22,4 @@ if __name__ == "__main__":
     start_position = 2
 
     result = compose(notes, moves, start_position)
-    print(result)  # Afișează melodia compusă
+    print(result)

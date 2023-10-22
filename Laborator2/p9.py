@@ -1,30 +1,26 @@
-def find_obstructed_seats(matrix):
-    obstructed_seats = []
-    num_rows = len(matrix)
-    num_cols = len(matrix[0])
+def verificare_ordonare_coloane(matrice):
+    n = len(matrice)
+    m = len(matrice[0])
 
-    for row in range(num_rows):
-        for col in range(num_cols):
-            current_height = matrix[row][col]
-            obstructed = False
+    elemente_neordonate = []
 
-            for i in range(row + 1, num_rows):
-                if matrix[i][col] > current_height:
-                    obstructed = True
-                    break
+    for coloana in range(m):
+        for rand in range(1, n):
+            if matrice[rand][coloana] <= matrice[rand - 1][coloana]:
+                elemente_neordonate.append((rand, coloana))
 
-            if obstructed:
-                obstructed_seats.append((row, col))
+    if elemente_neordonate:
+        for pozitie in elemente_neordonate:
+            print(f"({pozitie[0]}, {pozitie[1]})")
+    else:
+        print("Toate coloanele sunt ordonate crescător de sus în jos.")
 
-    return obstructed_seats
+# Exemplu de utilizare:
+matrice = [
+    [1, 2, 3, 2, 1, 1],
+    [2, 4, 4, 3, 7, 2],
+    [5, 5, 2, 5, 6, 4],
+    [6, 6, 7, 6, 7, 5]
+]
 
-if __name__ == "__main":
-    stadium = [
-        [1, 2, 3, 2, 1, 1],
-        [2, 4, 4, 3, 7, 2],
-        [5, 5, 2, 5, 6, 4],
-        [6, 6, 7, 6, 7, 5]
-    ]
-
-    obstructed_seats = find_obstructed_seats(stadium)
-    print(obstructed_seats)
+verificare_ordonare_coloane(matrice)

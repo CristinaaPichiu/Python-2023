@@ -1,10 +1,16 @@
-def merge_lists(*input_lists):
-    max_length = max(len(lst) for lst in input_lists)
+def merge_lists(*lists):
+    max_length = 0
+
+    for lst in lists:
+        length = len(lst)
+        if length > max_length:
+            max_length = length
+
     result = []
 
     for i in range(max_length):
         tuple_items = []
-        for lst in input_lists:
+        for lst in lists:
             if i < len(lst):
                 tuple_items.append(lst[i])
             else:

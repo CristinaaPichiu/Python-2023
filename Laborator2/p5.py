@@ -5,7 +5,7 @@
 
 def replace_below_main_diagonal_with_zeros(matrix):
     # funcția len(matrix) returnează lungimea listei matrix, care în acest caz este numărul de rânduri ale matricei.
-    #Deoarece o matrice este o listă de liste, matrix[0] reprezintă prima listă din matrice, iar len(matrix[0]) returnează lungimea acestei liste, care reprezintă numărul de coloane
+    # deoarece o matrice este o listă de liste, matrix[0] reprezintă prima listă din matrice, iar len(matrix[0]) returnează lungimea acestei liste, care reprezintă numărul de coloane
     num_rows = len(matrix)
     num_cols = len(matrix[0])
 

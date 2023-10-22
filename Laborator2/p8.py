@@ -1,27 +1,23 @@
-def filter_strings_by_ascii(x=1, strings=None, flag=True):
-    # Verificăm dacă lista de șiruri a fost furnizată; altfel, creăm o listă goală
-    if strings is None:
-        strings = []
+def function(x=1, strings=[], flag=True):
+    result = []
 
-    filtered_lists = []
-
-    for string in strings:
-        filtered_characters = []
-
-        for char in string:
+    for s in strings:
+        char_list = []
+        for char in s:
+            '''
+            Funcția ord() din Python este folosită pentru a obține valoarea numerică a codului ASCII al unui caracter. 
+            '''
             ascii_code = ord(char)
-
             if (flag and ascii_code % x == 0) or (not flag and ascii_code % x != 0):
-                filtered_characters.append(char)
+                char_list.append(char)
+        result.append(char_list)
 
-        filtered_lists.append(filtered_characters)
+    return [result]  # Wrap the result in a list to ensure it's a list of lists
 
-    return filtered_lists
+# Example usage:
+x = 2
+strings = ["test", "hello", "lab002"]
+flag = False
 
-if __name__ == "__main":
-    x = 2
-    strings = ["test", "hello", "lab002"]
-    flag = False
-
-    result = filter_strings_by_ascii(x, strings, flag)
-    print(result)
+result = function(x, strings, flag)
+print(result)

@@ -1,5 +1,4 @@
 # 3. Write a function that receives as parameters two lists a and b and returns: (a intersected with b, a reunited with b, a - b, b - a)
-
 def intersection(list1, list2):
     list3 = []
     for value in list1:
@@ -19,7 +18,10 @@ def union(list1, list2):
 
 
 def difference1(list1, list2):
-    list3 = list1[:]  # Copiem list1 pentru a evita modificarea listei originale
+    list3 = list1
+    '''set(list1): transformă lista list1 într-un obiect de tip set (mulțime) pentru a elimina duplicatele
+       apoi este convertita inapoi in list cu list(set(list1))
+    '''
     list3 = list(set(list1))
     for value in list2:
         if value in list3:
@@ -29,7 +31,7 @@ def difference1(list1, list2):
 
 
 def difference2(list1, list2):
-    list3 = list2[:]  # Copiem list2 pentru a evita modificarea listei originale
+    list3 = list2
     list3 = list(set(list2))
     for value in list1:
         if value in list3:

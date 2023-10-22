@@ -4,10 +4,11 @@
 """
 
 def find_items_appearing_x_times(x, *lists):
-    # Creăm o listă pentru a stoca elementele care apar exact de x ori
+
+    # creăm o listă pentru a stoca elementele care apar exact de x ori
     result = []
 
-    # Inițializăm o listă goală pentru a ține evidența numărului de apariții ale fiecărui element
+    # inițializăm o listă goală pentru a ține evidența numărului de apariții ale fiecărui element
     counts = []
 
     # Parcurgem fiecare listă din argumentele primite

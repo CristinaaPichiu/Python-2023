@@ -1,24 +1,32 @@
 def group_by_rhyme(words):
-    rhyme_groups = []  # Inițializăm o listă goală pentru a stoca grupurile de cuvinte care rimează
+
+    groups = []  # Lista pentru a stoca grupurile de cuvinte
 
     for word in words:
-        # Flag pentru a indica dacă cuvântul a fost adăugat la un grup existent
-        added_to_existing_group = False
+        # Găsește ultimele 2 litere ale cuvântului
 
-        for group in rhyme_groups:
-            # Comparam ultimele două litere ale cuvântului cu ultimele două litere ale cuvintelor din grup
-            if len(word) >= 2 and any(w.endswith(word[-2:]) for w in group):
+        '''
+        Caracterul -1 se referă la ultimul caracter din șir
+        iar -2 se referă la al doilea caracter de la sfârșit
+        deci word[-2:] va returna un subșir care conține ultimele două caractere ale șirului word.
+        '''
+        end_letters = word[-2:]
+
+        # Caut un grup existent în care să adaug cuvântul
+        added = False
+        for group in groups:
+            if group and group[0][-2:] == end_letters:
                 group.append(word)
-                added_to_existing_group = True
+                added = True
                 break
 
-        # Dacă cuvântul nu a fost adăugat la un grup existent, creăm un grup nou pentru el
-        if not added_to_existing_group:
-            rhyme_groups.append([word])
+        # Dacă cuvântul nu a fost adăugat în niciun grup existent, creează un nou grup
+        if not added:
+            groups.append([word])
 
-    return rhyme_groups
+    return groups
 
 # Exemplu de utilizare:
-word_list = ['ana', 'banana', 'carte', 'arme', 'parte']
-result = group_by_rhyme(word_list)
+words = ['ana', 'banana', 'carte', 'arme', 'parte']
+result = group_by_rhyme(words)
 print(result)

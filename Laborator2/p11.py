@@ -4,7 +4,7 @@ def order_tuples_by_third_character(lst):
     # Parcurgeți lista pentru fiecare valoare a al treilea caracter (de la 'a' la 'z')
     for char in 'abcdefghijklmnopqrstuvwxyz':
         for item in lst:
-            if len(item[1]) >= 3 and item[1][2] == char:
+            if  item[1][2] == char: #item[1][2] se referă la al treilea caracter din al doilea element al tuplului.
                 result.append(item)
 
     return result
