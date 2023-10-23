@@ -15,6 +15,9 @@ def group_by_rhyme(words):
         # Caut un grup existent în care să adaug cuvântul
         added = False
         for group in groups:
+
+            #group[0] reprezintă primul cuvânt din grupul respectiv
+            #group[0][-2:] reprezintă ultimele două litere ale primului cuvânt din grupul respectiv
             if group and group[0][-2:] == end_letters:
                 group.append(word)
                 added = True

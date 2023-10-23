@@ -9,7 +9,7 @@ def intersection(list1, list2):
 
 
 def union(list1, list2):
-    list3 = list1[:]  # Copiem list1 pentru a evita modificarea listei originale
+    list3 = list1
     for value in list2:
         if value not in list3:
             list3.append(value)

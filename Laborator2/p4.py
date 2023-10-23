@@ -3,6 +3,8 @@ Write a function that receives as a parameters a list of musical notes (strings)
 and a start position (integer).
 The function will return the song composed by going though the musical notes beginning with the start position and following the moves given as parameter.
 """
+
+
 def compose(notes, moves, start_position):
     composition = []
     current_position = start_position
