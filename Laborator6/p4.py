@@ -19,7 +19,9 @@ def count_files_by_extension(directory_path):
             _, extension = os.path.splitext(filename)
             extension = extension.lower()  # Facem extensiile să fie în litere mici pentru uniformitate
 
-            extension_count[extension] = extension_count.get(extension, 0) + 1
+            if extension in extension_count:
+                extension_count[extension] += 1
+            else: extension_count[extension] = 1
 
         print(f"File counts by extension in '{directory_path}':")
         for ext, count in extension_count.items():

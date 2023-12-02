@@ -15,12 +15,17 @@ def read_and_print_files(directory_path, file_extension):
                 file_path = os.path.join(directory_path, filename)
 
                 # deschid fișierul și citesc conținutul
+                file = None
                 try:
-                    with open(file_path, 'r', encoding='utf-8') as file:
-                        content = file.read()
-                        print(f"Content of '{filename}':\n{content}\n{'-' * 30}")
+                    file = open(file_path, 'r', encoding='utf-8')
+                    content = file.read()
+                    print(f"Content of '{filename}':\n{content}\n{'-' * 30}")
                 except Exception as file_error:
                     print(f"Error reading file '{filename}': {file_error}")
+                finally:
+                    if file is not None:
+                        file.close()
+
 
     except Exception as e:
         print(f"An error occurred: {e}")
