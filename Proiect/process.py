@@ -1,26 +1,43 @@
 import os
+import subprocess
 import sys
 import psutil
 
+def help_specific_command(command):
+    if command == "view":
+        print("view: Afișează informații despre toate procesele în execuție.")
+    elif command == "suspend":
+        print("suspend <PID>: Suspendă execuția procesului cu PID-ul specificat.")
+    elif command == "resume":
+        print("resume <PID>: Reia execuția procesului cu PID-ul specificat.")
+    elif command == "kill":
+        print("kill <PID>: Termină procesul cu PID-ul specificat.")
+    elif command == "run":
+        print("run <path> <arguments>: Rulează un nou proces cu path-ul si argumentele specificate.")
+    else:
+        print(f"Comanda '{command}' nu exista.")
 
-def get_command():
+
+def exists_command(command):
     try:
-        command = sys.argv[1]
-        list_commands = ["view", "suspend", "resume", "kill", "run"]
+        list_commands = ["view", "suspend", "resume", "kill", "run", "help"]
         if command not in list_commands:
             raise ValueError("Comanda introdusă nu este validă.")
-        return command
-    except IndexError:
-        print("Trebuie să introduci una dintre comenzile: view, suspend, resume, kill, run, cu sintaxa potrivita!")
-        return None
+        return True  # Comanda există în listă
     except ValueError as e:
         print(f"Error: {e}")
-        return None
+        return False  # Comanda nu există în listă
+    except Exception as e:
+        print(f"Error: {e}")
+        return False  # În caz de altă excepție, comanda nu există în listă
+
 
 
 def is_syntax_correct(command, args):
     try:
         if command == "view" and not args:
+            return True
+        elif command == "help" and len(args) == 1:
             return True
         elif command in ["suspend", "resume", "kill"] and len(args) == 1 and args[0].isdigit():
             return True
@@ -62,8 +79,29 @@ def view_command():
 
 
 if __name__ == "__main__":
-    comanda = get_command()
-    argumente = sys.argv[2:]
+    print("Comenzile disponibile sunt:")
+    print("1. view")
+    print("2. suspend <PID>")
+    print("3. resume <PID>")
+    print("4. kill <PID>")
+    print("5. run <path> <parametri>")
+    print("6. help <comanda>")
+    while True:
+        user_input = input("Introdu o comandă sau 'exit' pentru a ieși: ")
+        if user_input.lower() == 'exit':
+            break
 
-    if is_syntax_correct(comanda, argumente) and comanda == "view":
-        view_command()
+        # impart comanda in cuvinte
+        parts = user_input.split()
+        # primul cuvant reprezinta comanda propriu-zisa
+        command = parts[0]
+        # celelalte cuvinte sunt argumentele comenzii
+        argumente = parts[1:]
+
+
+        if exists_command(command) and is_syntax_correct(command, argumente):
+            if command == "help" and argumente:
+                help_specific_command(argumente[0])
+            if command == "view":
+                 view_command()
+
