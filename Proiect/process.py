@@ -20,7 +20,7 @@ def help_specific_command(command):
 
 def exists_command(command):
     try:
-        list_commands = ["view", "suspend", "resume", "kill", "run", "help"]
+        list_commands = ["view", "suspend", "resume", "kill", "run", "help", "exit"]
         if command not in list_commands:
             raise ValueError("Comanda introdusă nu este validă.")
         return True  # Comanda există în listă
@@ -35,13 +35,15 @@ def exists_command(command):
 
 def is_syntax_correct(command, args):
     try:
-        if command == "view" and not args:
+        if command == "view" and len(args)==0:
             return True
         elif command == "help" and len(args) == 1:
             return True
         elif command in ["suspend", "resume", "kill"] and len(args) == 1 and args[0].isdigit():
             return True
-        elif command == "run" and len(args) == 2 and os.path.isfile(args[0]):
+        elif command == "run" and len(args) >= 1:
+            return True
+        elif command == "exit" and len(args) == 0:
             return True
         else:
             raise ValueError("Sintaxă incorectă pentru comanda specificată.")
@@ -58,12 +60,13 @@ def view_command():
         try:
             pid = process.pid
             if pid != 0 and psutil.pid_exists(pid):
-                print("-" * 60)
+                print("------------------------------------------------------------------------------------" )
                 print(f'Process Info for PID {pid}: ')
                 print(f'  PID: {pid}')
                 print(f'  Name: {process.name()}')
                 print(f'  CPU Percent: {process.cpu_percent()}')
-                print(f'  Memory Info: {process.memory_info()}')
+                list= process.memory_info()
+                print(f'  Memory Info: {list} ')
                 print(f'  Create Time: {process.create_time()}')
                 print(f'  Status: {process.status()}')
                 print(f'  Username: {process.username()}')
@@ -78,6 +81,22 @@ def view_command():
             print(f"Error occuring during fetching data for process with PID {pid}: {e}")
 
 
+def run_command(path, parameters):
+    try:
+        subprocess.run([path] + parameters)
+        print("Process started succesfully. ")
+    except Exception as e:
+     print(f"Error: {e}")
+
+def kill_command(pid):
+    try:
+        process = psutil.Process(pid)
+        process.terminate()
+        print("Process killed succesfully. ")
+    except Exception as e:
+     print(f"Error: {e}")
+
+
 if __name__ == "__main__":
     print("Comenzile disponibile sunt:")
     print("1. view")
@@ -86,6 +105,8 @@ if __name__ == "__main__":
     print("4. kill <PID>")
     print("5. run <path> <parametri>")
     print("6. help <comanda>")
+    print("7. exit")
+
     while True:
         user_input = input("Introdu o comandă sau 'exit' pentru a ieși: ")
         if user_input.lower() == 'exit':
@@ -93,15 +114,27 @@ if __name__ == "__main__":
 
         # impart comanda in cuvinte
         parts = user_input.split()
+
+        print (len(parts))
         # primul cuvant reprezinta comanda propriu-zisa
         command = parts[0]
         # celelalte cuvinte sunt argumentele comenzii
-        argumente = parts[1:]
 
+        argumente = parts[1:]
 
         if exists_command(command) and is_syntax_correct(command, argumente):
             if command == "help" and argumente:
                 help_specific_command(argumente[0])
             if command == "view":
                  view_command()
+
+            if command == "run":
+                run_command(parts[1], parts[2:])
+
+            if command == "kill":
+                kill_command(int(parts[1]))
+
+
+
+
 
