@@ -14,7 +14,7 @@ def help_specific_command(command):
     elif command == "kill":
         print("kill <PID>: stops the process with the specified PID.")
     elif command == "run":
-        print("run <program> <path> <arguments>: runs a new process with the specified path and arguments.")
+        print("run  <path> <arguments>: runs a new process with the specified path and arguments.")
     else:
         print(f"Command: '{command}' doesnt exists.")
 
@@ -32,6 +32,7 @@ def exists_command(command):
 
 def is_syntax_correct(command, args):
     try:
+
         if command == "view" and len(args) == 0:
             return True
         elif command == "help" and len(args) == 1:
@@ -81,14 +82,19 @@ def view_command():
         except Exception as e:
             print(f"Error occuring during fetching data for process with PID {pid}: {e}")
     print("The information is displayed in the info.txt file")
-    file.close()
+    try:
+        file.close()
+    except Exception as e:
+        print(f"Error: Unable to close the file: {e}")
 
 
 def run_command(path, parameters):
     try:
-        subprocess.run([path] + parameters)
+        command = [path]
+        command.extend(parameters)
+        subprocess.run(command)
+        #subprocess.run([path] + parameters)
         print("Process started succesfully. ")
-
     except Exception as e:
         print(f"Error: {e}")
 
@@ -127,7 +133,7 @@ if __name__ == "__main__":
     print("2. suspend <PID>")
     print("3. resume <PID>")
     print("4. kill <PID>")
-    print("5. run <program> <path> <parametri>")
+    print("5. run <path> <parametri>")
     print("6. help <comanda>")
     print("7. exit")
 
@@ -146,6 +152,8 @@ if __name__ == "__main__":
         # celelalte cuvinte sunt argumentele comenzii
 
         argumente = parts[1:]
+
+        # print(is_syntax_correct(command,argumente))
 
         if exists_command(command) and is_syntax_correct(command, argumente):
             if command == "help" and argumente:
