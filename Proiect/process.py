@@ -14,7 +14,7 @@ def help_specific_command(command):
     elif command == "kill":
         print("kill <PID>: stops the process with the specified PID.")
     elif command == "run":
-        print("run <path> <arguments>: runs a new process with the specified path and arguments.")
+        print("run <program> <path> <arguments>: runs a new process with the specified path and arguments.")
     else:
         print(f"Command: '{command}' doesnt exists.")
 
@@ -50,30 +50,38 @@ def is_syntax_correct(command, args):
 
 
 def view_command():
+    try:
+        file = open("info.txt", "w")
+
+    except Exception as e:
+        print(f"Unable to open the file: {e}")
+
     for process in psutil.process_iter():
         try:
             pid = process.pid
             if pid != 0 and psutil.pid_exists(pid):
-                print("------------------------------------------------------------------------------------")
-                print(f'Process Info for PID {pid}: ')
-                print(f'  PID: {pid}')
-                print(f'  Name: {process.name()}')
-                print(f'  Path: {process.exe()}')
-                print(f'  CPU Percent: {process.cpu_percent()}')
+                file.write("---------------------------------------------------------------\n")
+                file.write(f'Process Info for PID {pid}: \n')
+                file.write(f'  PID: {pid}\n')
+                file.write(f'  Name: {process.name()} \n')
+                file.write(f'  Path: {process.exe()} \n')
+                file.write(f'  CPU Percent: {process.cpu_percent()} \n')
                 variable = process.memory_info()
-                print(f'  Memory Info: rss: {variable.rss}, vms: {variable.vms} ')
-                print(f'  Create Time: {process.create_time()}')
-                print(f'  Status: {process.status()}')
-                print(f'  Username: {process.username()}')
-                print(f'  Connections: {process.connections()}')
-                print(f'  Number of Threads: {process.num_threads()}')
-                print("------------------------------------------------------------------------------------")
+                file.write(f'  Memory Info: rss: {variable.rss}, vms: {variable.vms} \n')
+                file.write(f'  Create Time: {process.create_time()} \n')
+                file.write(f'  Status: {process.status()} \n')
+                file.write(f'  Username: {process.username()} \n')
+                file.write(f'  Connections: {process.connections()} \n')
+                file.write(f'  Number of Threads: {process.num_threads()} \n')
+                file.write("---------------------------------------------------------------\n")
         except psutil.NoSuchProcess as e:
             print(f"Error: Process with PID {pid} does not exist. {e}")
         except psutil.AccessDenied as e:
             print(f"Error: Access denied when fetching data for process with PID {pid}. {e}")
         except Exception as e:
             print(f"Error occuring during fetching data for process with PID {pid}: {e}")
+    print("The information is displayed in the info.txt file")
+    file.close()
 
 
 def run_command(path, parameters):
@@ -93,6 +101,7 @@ def kill_command(pid):
     except Exception as e:
         print(f"Error: {e}")
 
+
 def suspend_command(pid):
     try:
         process = psutil.Process(pid)
@@ -100,6 +109,7 @@ def suspend_command(pid):
         print(f"Process with pid {pid} is suspended. ")
     except Exception as e:
         print(f"Error: {e}")
+
 
 def resume_command(pid):
     try:
@@ -112,12 +122,12 @@ def resume_command(pid):
 
 if __name__ == "__main__":
 
-    print("Comenzile disponibile sunt:")
+    print("You can choose one of the commands below:")
     print("1. view")
     print("2. suspend <PID>")
     print("3. resume <PID>")
     print("4. kill <PID>")
-    print("5. run <path> <parametri>")
+    print("5. run <program> <path> <parametri>")
     print("6. help <comanda>")
     print("7. exit")
 
@@ -129,9 +139,10 @@ if __name__ == "__main__":
         # impart comanda in cuvinte
         parts = user_input.split()
 
-        #print(len(parts))
+        # print(len(parts))
         # primul cuvant reprezinta comanda propriu-zisa
         command = parts[0]
+
         # celelalte cuvinte sunt argumentele comenzii
 
         argumente = parts[1:]

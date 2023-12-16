@@ -1,0 +1,2548 @@
+---------------------------------------------------------------
+Process Info for PID 4: 
+  PID: 4
+  Name: System 
+  Path:  
+  CPU Percent: 0.0 
+  Memory Info: rss: 1576960, vms: 208896 
+  Create Time: 1702650721.5780003 
+  Status: running 
+  Username: NT AUTHORITY\SYSTEM 
+  Connections: [pconn(fd=-1, family=<AddressFamily.AF_INET: 2>, type=<SocketKind.SOCK_STREAM: 1>, laddr=addr(ip='0.0.0.0', port=5357), raddr=(), status='LISTEN'), pconn(fd=-1, family=<AddressFamily.AF_INET: 2>, type=<SocketKind.SOCK_DGRAM: 2>, laddr=addr(ip='192.168.100.182', port=137), raddr=(), status='NONE'), pconn(fd=-1, family=<AddressFamily.AF_INET: 2>, type=<SocketKind.SOCK_STREAM: 1>, laddr=addr(ip='192.168.56.1', port=139), raddr=(), status='LISTEN'), pconn(fd=-1, family=<AddressFamily.AF_INET: 2>, type=<SocketKind.SOCK_DGRAM: 2>, laddr=addr(ip='192.168.56.1', port=138), raddr=(), status='NONE'), pconn(fd=-1, family=<AddressFamily.AF_INET: 2>, type=<SocketKind.SOCK_DGRAM: 2>, laddr=addr(ip='192.168.56.1', port=137), raddr=(), status='NONE'), pconn(fd=-1, family=<AddressFamily.AF_INET: 2>, type=<SocketKind.SOCK_STREAM: 1>, laddr=addr(ip='0.0.0.0', port=9001), raddr=(), status='LISTEN'), pconn(fd=-1, family=<AddressFamily.AF_INET6: 23>, type=<SocketKind.SOCK_STREAM: 1>, laddr=addr(ip='::', port=5357), raddr=(), status='LISTEN'), pconn(fd=-1, family=<AddressFamily.AF_INET: 2>, type=<SocketKind.SOCK_STREAM: 1>, laddr=addr(ip='192.168.100.182', port=139), raddr=(), status='LISTEN'), pconn(fd=-1, family=<AddressFamily.AF_INET: 2>, type=<SocketKind.SOCK_STREAM: 1>, laddr=addr(ip='0.0.0.0', port=445), raddr=(), status='LISTEN'), pconn(fd=-1, family=<AddressFamily.AF_INET6: 23>, type=<SocketKind.SOCK_STREAM: 1>, laddr=addr(ip='::', port=445), raddr=(), status='LISTEN'), pconn(fd=-1, family=<AddressFamily.AF_INET6: 23>, type=<SocketKind.SOCK_STREAM: 1>, laddr=addr(ip='::', port=9001), raddr=(), status='LISTEN'), pconn(fd=-1, family=<AddressFamily.AF_INET: 2>, type=<SocketKind.SOCK_DGRAM: 2>, laddr=addr(ip='192.168.100.182', port=138), raddr=(), status='NONE')] 
+  Number of Threads: 232 
+---------------------------------------------------------------
+---------------------------------------------------------------
+Process Info for PID 84: 
+  PID: 84
+  Name: lsass.exe 
+  Path: C:\Windows\System32\lsass.exe 
+  CPU Percent: 0.0 
+  Memory Info: rss: 19726336, vms: 10379264 
+  Create Time: 1702650725.7589953 
+  Status: running 
+  Username: NT AUTHORITY\SYSTEM 
+  Connections: [pconn(fd=-1, family=<AddressFamily.AF_INET: 2>, type=<SocketKind.SOCK_STREAM: 1>, laddr=addr(ip='0.0.0.0', port=49664), raddr=(), status='LISTEN'), pconn(fd=-1, family=<AddressFamily.AF_INET6: 23>, type=<SocketKind.SOCK_STREAM: 1>, laddr=addr(ip='::', port=49664), raddr=(), status='LISTEN')] 
+  Number of Threads: 9 
+---------------------------------------------------------------
+---------------------------------------------------------------
+Process Info for PID 124: 
+  PID: 124
+  Name: Registry 
+  Path: Registry 
+  CPU Percent: 0.0 
+  Memory Info: rss: 55549952, vms: 7901184 
+  Create Time: 1702650719.5878165 
+  Status: running 
+  Username: NT AUTHORITY\SYSTEM 
+  Connections: [] 
+  Number of Threads: 4 
+---------------------------------------------------------------
+---------------------------------------------------------------
+Process Info for PID 388: 
+  PID: 388
+  Name: svchost.exe 
+  Path: C:\Windows\System32\svchost.exe 
+  CPU Percent: 0.0 
+  Memory Info: rss: 19259392, vms: 5652480 
+  Create Time: 1702721710.649675 
+  Status: running 
+  Username: DESKTOP-91K1AQU\Hp 
+  Connections: [] 
+  Number of Threads: 6 
+---------------------------------------------------------------
+---------------------------------------------------------------
+Process Info for PID 532: 
+  PID: 532
+  Name: smss.exe 
+  Path: C:\Windows\System32\smss.exe 
+  CPU Percent: 0.0 
+  Memory Info: rss: 1015808, vms: 1089536 
+  Create Time: 1702650721.5811417 
+  Status: running 
+  Username: NT AUTHORITY\SYSTEM 
+  Connections: [] 
+  Number of Threads: 2 
+---------------------------------------------------------------
+---------------------------------------------------------------
+Process Info for PID 648: 
+  PID: 648
+  Name: RuntimeBroker.exe 
+  Path: C:\Windows\System32\RuntimeBroker.exe 
+  CPU Percent: 0.0 
+  Memory Info: rss: 23986176, vms: 6131712 
+  Create Time: 1702721595.525816 
+  Status: running 
+  Username: DESKTOP-91K1AQU\Hp 
+  Connections: [] 
+  Number of Threads: 1 
+---------------------------------------------------------------
+---------------------------------------------------------------
+Process Info for PID 672: 
+  PID: 672
+  Name: svchost.exe 
+  Path: C:\Windows\System32\svchost.exe 
+  CPU Percent: 0.0 
+  Memory Info: rss: 12210176, vms: 3862528 
+  Create Time: 1702738869.1680975 
+  Status: running 
+  Username: NT AUTHORITY\SYSTEM 
+  Connections: [] 
+  Number of Threads: 7 
+---------------------------------------------------------------
+---------------------------------------------------------------
+Process Info for PID 784: 
+  PID: 784
+  Name: svchost.exe 
+  Path: C:\Windows\System32\svchost.exe 
+  CPU Percent: 0.0 
+  Memory Info: rss: 6201344, vms: 1892352 
+  Create Time: 1702650728.294148 
+  Status: running 
+  Username: NT AUTHORITY\SYSTEM 
+  Connections: [] 
+  Number of Threads: 3 
+---------------------------------------------------------------
+---------------------------------------------------------------
+Process Info for PID 792: 
+  PID: 792
+  Name: csrss.exe 
+  Path: C:\Windows\System32\csrss.exe 
+  CPU Percent: 0.0 
+  Memory Info: rss: 4571136, vms: 2199552 
+  Create Time: 1702650725.1326437 
+  Status: running 
+  Username: NT AUTHORITY\SYSTEM 
+  Connections: [] 
+  Number of Threads: 11 
+---------------------------------------------------------------
+---------------------------------------------------------------
+Process Info for PID 880: 
+  PID: 880
+  Name: wininit.exe 
+  Path: C:\Windows\System32\wininit.exe 
+  CPU Percent: 0.0 
+  Memory Info: rss: 4706304, vms: 1732608 
+  Create Time: 1702650725.609599 
+  Status: running 
+  Username: NT AUTHORITY\SYSTEM 
+  Connections: [pconn(fd=-1, family=<AddressFamily.AF_INET6: 23>, type=<SocketKind.SOCK_STREAM: 1>, laddr=addr(ip='::', port=49665), raddr=(), status='LISTEN'), pconn(fd=-1, family=<AddressFamily.AF_INET: 2>, type=<SocketKind.SOCK_STREAM: 1>, laddr=addr(ip='0.0.0.0', port=49665), raddr=(), status='LISTEN')] 
+  Number of Threads: 1 
+---------------------------------------------------------------
+---------------------------------------------------------------
+Process Info for PID 984: 
+  PID: 984
+  Name: rundll32.exe 
+  Path: C:\Windows\System32\rundll32.exe 
+  CPU Percent: 0.0 
+  Memory Info: rss: 8572928, vms: 2678784 
+  Create Time: 1702721739.459969 
+  Status: running 
+  Username: DESKTOP-91K1AQU\Hp 
+  Connections: [] 
+  Number of Threads: 1 
+---------------------------------------------------------------
+---------------------------------------------------------------
+Process Info for PID 988: 
+  PID: 988
+  Name: svchost.exe 
+  Path: C:\Windows\System32\svchost.exe 
+  CPU Percent: 0.0 
+  Memory Info: rss: 8949760, vms: 4911104 
+  Create Time: 1702650797.0568614 
+  Status: running 
+  Username: NT AUTHORITY\SYSTEM 
+  Connections: [] 
+  Number of Threads: 8 
+---------------------------------------------------------------
+---------------------------------------------------------------
+Process Info for PID 1016: 
+  PID: 1016
+  Name: svchost.exe 
+  Path: C:\Windows\System32\svchost.exe 
+  CPU Percent: 0.0 
+  Memory Info: rss: 7798784, vms: 2875392 
+  Create Time: 1702650726.3462021 
+  Status: running 
+  Username: NT AUTHORITY\SYSTEM 
+  Connections: [] 
+  Number of Threads: 12 
+---------------------------------------------------------------
+---------------------------------------------------------------
+Process Info for PID 1020: 
+  PID: 1020
+  Name: services.exe 
+  Path: C:\Windows\System32\services.exe 
+  CPU Percent: 0.0 
+  Memory Info: rss: 9265152, vms: 6381568 
+  Create Time: 1702650725.728816 
+  Status: running 
+  Username: NT AUTHORITY\SYSTEM 
+  Connections: [pconn(fd=-1, family=<AddressFamily.AF_INET6: 23>, type=<SocketKind.SOCK_STREAM: 1>, laddr=addr(ip='::', port=49670), raddr=(), status='LISTEN'), pconn(fd=-1, family=<AddressFamily.AF_INET: 2>, type=<SocketKind.SOCK_STREAM: 1>, laddr=addr(ip='0.0.0.0', port=49670), raddr=(), status='LISTEN')] 
+  Number of Threads: 5 
+---------------------------------------------------------------
+---------------------------------------------------------------
+Process Info for PID 1036: 
+  PID: 1036
+  Name: svchost.exe 
+  Path: C:\Windows\System32\svchost.exe 
+  CPU Percent: 0.0 
+  Memory Info: rss: 5320704, vms: 1642496 
+  Create Time: 1702650733.4207735 
+  Status: running 
+  Username: NT AUTHORITY\LOCAL SERVICE 
+  Connections: [] 
+  Number of Threads: 1 
+---------------------------------------------------------------
+---------------------------------------------------------------
+Process Info for PID 1068: 
+  PID: 1068
+  Name: svchost.exe 
+  Path: C:\Windows\System32\svchost.exe 
+  CPU Percent: 0.0 
+  Memory Info: rss: 29274112, vms: 14577664 
+  Create Time: 1702650725.9544313 
+  Status: running 
+  Username: NT AUTHORITY\SYSTEM 
+  Connections: [] 
+  Number of Threads: 11 
+---------------------------------------------------------------
+---------------------------------------------------------------
+Process Info for PID 1112: 
+  PID: 1112
+  Name: fontdrvhost.exe 
+  Path: C:\Windows\System32\fontdrvhost.exe 
+  CPU Percent: 0.0 
+  Memory Info: rss: 1949696, vms: 1613824 
+  Create Time: 1702650725.9689047 
+  Status: running 
+  Username: Font Driver Host\UMFD-0 
+  Connections: [] 
+  Number of Threads: 5 
+---------------------------------------------------------------
+---------------------------------------------------------------
+Process Info for PID 1164: 
+  PID: 1164
+  Name: pycharm64.exe 
+  Path: C:\Program Files\JetBrains\PyCharm Community Edition 2023.2.2\bin\pycharm64.exe 
+  CPU Percent: 0.0 
+  Memory Info: rss: 28708864, vms: 26152960 
+  Create Time: 1702734314.2570317 
+  Status: running 
+  Username: DESKTOP-91K1AQU\Hp 
+  Connections: [] 
+  Number of Threads: 9 
+---------------------------------------------------------------
+---------------------------------------------------------------
+Process Info for PID 1168: 
+  PID: 1168
+  Name: WUDFHost.exe 
+  Path: C:\Windows\System32\WUDFHost.exe 
+  CPU Percent: 0.0 
+  Memory Info: rss: 14245888, vms: 8441856 
+  Create Time: 1702650725.994101 
+  Status: running 
+  Username: NT AUTHORITY\LOCAL SERVICE 
+  Connections: [] 
+  Number of Threads: 12 
+---------------------------------------------------------------
+---------------------------------------------------------------
+Process Info for PID 1176: 
+  PID: 1176
+  Name: svchost.exe 
+  Path: C:\Windows\System32\svchost.exe 
+  CPU Percent: 0.0 
+  Memory Info: rss: 8019968, vms: 1789952 
+  Create Time: 1702721590.513239 
+  Status: running 
+  Username: DESKTOP-91K1AQU\Hp 
+  Connections: [] 
+  Number of Threads: 1 
+---------------------------------------------------------------
+---------------------------------------------------------------
+Process Info for PID 1224: 
+  PID: 1224
+  Name: svchost.exe 
+  Path: C:\Windows\System32\svchost.exe 
+  CPU Percent: 0.0 
+  Memory Info: rss: 12709888, vms: 3461120 
+  Create Time: 1702650726.3478708 
+  Status: running 
+  Username: NT AUTHORITY\SYSTEM 
+  Connections: [] 
+  Number of Threads: 2 
+---------------------------------------------------------------
+---------------------------------------------------------------
+Process Info for PID 1232: 
+  PID: 1232
+  Name: svchost.exe 
+  Path: C:\Windows\System32\svchost.exe 
+  CPU Percent: 0.0 
+  Memory Info: rss: 15798272, vms: 9805824 
+  Create Time: 1702650726.0818653 
+  Status: running 
+  Username: NT AUTHORITY\NETWORK SERVICE 
+  Connections: [pconn(fd=-1, family=<AddressFamily.AF_INET: 2>, type=<SocketKind.SOCK_STREAM: 1>, laddr=addr(ip='0.0.0.0', port=135), raddr=(), status='LISTEN'), pconn(fd=-1, family=<AddressFamily.AF_INET6: 23>, type=<SocketKind.SOCK_STREAM: 1>, laddr=addr(ip='::', port=135), raddr=(), status='LISTEN')] 
+  Number of Threads: 10 
+---------------------------------------------------------------
+---------------------------------------------------------------
+Process Info for PID 1312: 
+  PID: 1312
+  Name: svchost.exe 
+  Path: C:\Windows\System32\svchost.exe 
+  CPU Percent: 0.0 
+  Memory Info: rss: 7192576, vms: 2846720 
+  Create Time: 1702650726.109002 
+  Status: running 
+  Username: NT AUTHORITY\SYSTEM 
+  Connections: [] 
+  Number of Threads: 4 
+---------------------------------------------------------------
+---------------------------------------------------------------
+Process Info for PID 1352: 
+  PID: 1352
+  Name: python.exe 
+  Path: C:\Users\Hp\AppData\Local\Programs\Python\Python312\python.exe 
+  CPU Percent: 0.0 
+  Memory Info: rss: 16199680, vms: 10465280 
+  Create Time: 1702739069.4659696 
+  Status: running 
+  Username: DESKTOP-91K1AQU\Hp 
+  Connections: [] 
+  Number of Threads: 4 
+---------------------------------------------------------------
+---------------------------------------------------------------
+Process Info for PID 1420: 
+  PID: 1420
+  Name: WUDFHost.exe 
+  Path: C:\Windows\System32\WUDFHost.exe 
+  CPU Percent: 0.0 
+  Memory Info: rss: 3780608, vms: 3649536 
+  Create Time: 1702650726.1807277 
+  Status: running 
+  Username: NT AUTHORITY\LOCAL SERVICE 
+  Connections: [] 
+  Number of Threads: 5 
+---------------------------------------------------------------
+---------------------------------------------------------------
+Process Info for PID 1556: 
+  PID: 1556
+  Name: SearchApp.exe 
+  Path: C:\Windows\SystemApps\Microsoft.Windows.Search_cw5n1h2txyewy\SearchApp.exe 
+  CPU Percent: 0.0 
+  Memory Info: rss: 37822464, vms: 134774784 
+  Create Time: 1702723621.8223374 
+  Status: stopped 
+  Username: DESKTOP-91K1AQU\Hp 
+  Connections: [] 
+  Number of Threads: 35 
+---------------------------------------------------------------
+---------------------------------------------------------------
+Process Info for PID 1624: 
+  PID: 1624
+  Name: RuntimeBroker.exe 
+  Path: C:\Windows\System32\RuntimeBroker.exe 
+  CPU Percent: 0.0 
+  Memory Info: rss: 27541504, vms: 7282688 
+  Create Time: 1702721599.181856 
+  Status: running 
+  Username: DESKTOP-91K1AQU\Hp 
+  Connections: [] 
+  Number of Threads: 5 
+---------------------------------------------------------------
+---------------------------------------------------------------
+Process Info for PID 1632: 
+  PID: 1632
+  Name: svchost.exe 
+  Path: C:\Windows\System32\svchost.exe 
+  CPU Percent: 0.0 
+  Memory Info: rss: 5853184, vms: 1916928 
+  Create Time: 1702650726.2691705 
+  Status: running 
+  Username: NT AUTHORITY\LOCAL SERVICE 
+  Connections: [] 
+  Number of Threads: 2 
+---------------------------------------------------------------
+---------------------------------------------------------------
+Process Info for PID 1660: 
+  PID: 1660
+  Name: svchost.exe 
+  Path: C:\Windows\System32\svchost.exe 
+  CPU Percent: 0.0 
+  Memory Info: rss: 9637888, vms: 1802240 
+  Create Time: 1702650726.271558 
+  Status: running 
+  Username: NT AUTHORITY\LOCAL SERVICE 
+  Connections: [] 
+  Number of Threads: 2 
+---------------------------------------------------------------
+---------------------------------------------------------------
+Process Info for PID 1672: 
+  PID: 1672
+  Name: svchost.exe 
+  Path: C:\Windows\System32\svchost.exe 
+  CPU Percent: 0.0 
+  Memory Info: rss: 11763712, vms: 4558848 
+  Create Time: 1702651627.7341397 
+  Status: running 
+  Username: NT AUTHORITY\SYSTEM 
+  Connections: [] 
+  Number of Threads: 2 
+---------------------------------------------------------------
+---------------------------------------------------------------
+Process Info for PID 1680: 
+  PID: 1680
+  Name: svchost.exe 
+  Path: C:\Windows\System32\svchost.exe 
+  CPU Percent: 0.0 
+  Memory Info: rss: 4468736, vms: 1720320 
+  Create Time: 1702650726.275568 
+  Status: running 
+  Username: NT AUTHORITY\LOCAL SERVICE 
+  Connections: [] 
+  Number of Threads: 2 
+---------------------------------------------------------------
+---------------------------------------------------------------
+Process Info for PID 1688: 
+  PID: 1688
+  Name: svchost.exe 
+  Path: C:\Windows\System32\svchost.exe 
+  CPU Percent: 0.0 
+  Memory Info: rss: 10063872, vms: 3366912 
+  Create Time: 1702650726.2761695 
+  Status: running 
+  Username: NT AUTHORITY\LOCAL SERVICE 
+  Connections: [] 
+  Number of Threads: 7 
+---------------------------------------------------------------
+---------------------------------------------------------------
+Process Info for PID 1724: 
+  PID: 1724
+  Name: svchost.exe 
+  Path: C:\Windows\System32\svchost.exe 
+  CPU Percent: 0.0 
+  Memory Info: rss: 6610944, vms: 1986560 
+  Create Time: 1702650726.358128 
+  Status: running 
+  Username: NT AUTHORITY\LOCAL SERVICE 
+  Connections: [] 
+  Number of Threads: 4 
+---------------------------------------------------------------
+---------------------------------------------------------------
+Process Info for PID 1804: 
+  PID: 1804
+  Name: svchost.exe 
+  Path: C:\Windows\System32\svchost.exe 
+  CPU Percent: 0.0 
+  Memory Info: rss: 9265152, vms: 2609152 
+  Create Time: 1702650726.2937834 
+  Status: running 
+  Username: NT AUTHORITY\SYSTEM 
+  Connections: [] 
+  Number of Threads: 4 
+---------------------------------------------------------------
+---------------------------------------------------------------
+Process Info for PID 1816: 
+  PID: 1816
+  Name: svchost.exe 
+  Path: C:\Windows\System32\svchost.exe 
+  CPU Percent: 0.0 
+  Memory Info: rss: 11038720, vms: 2101248 
+  Create Time: 1702650726.2940323 
+  Status: running 
+  Username: NT AUTHORITY\LOCAL SERVICE 
+  Connections: [] 
+  Number of Threads: 1 
+---------------------------------------------------------------
+---------------------------------------------------------------
+Process Info for PID 1944: 
+  PID: 1944
+  Name: svchost.exe 
+  Path: C:\Windows\System32\svchost.exe 
+  CPU Percent: 0.0 
+  Memory Info: rss: 14819328, vms: 6987776 
+  Create Time: 1702650726.3142693 
+  Status: running 
+  Username: NT AUTHORITY\SYSTEM 
+  Connections: [pconn(fd=-1, family=<AddressFamily.AF_INET6: 23>, type=<SocketKind.SOCK_STREAM: 1>, laddr=addr(ip='::', port=49667), raddr=(), status='LISTEN'), pconn(fd=-1, family=<AddressFamily.AF_INET: 2>, type=<SocketKind.SOCK_STREAM: 1>, laddr=addr(ip='0.0.0.0', port=49667), raddr=(), status='LISTEN')] 
+  Number of Threads: 7 
+---------------------------------------------------------------
+---------------------------------------------------------------
+Process Info for PID 1964: 
+  PID: 1964
+  Name: svchost.exe 
+  Path: C:\Windows\System32\svchost.exe 
+  CPU Percent: 0.0 
+  Memory Info: rss: 9928704, vms: 2842624 
+  Create Time: 1702650852.672165 
+  Status: running 
+  Username: NT AUTHORITY\SYSTEM 
+  Connections: [] 
+  Number of Threads: 1 
+---------------------------------------------------------------
+---------------------------------------------------------------
+Process Info for PID 1976: 
+  PID: 1976
+  Name: svchost.exe 
+  Path: C:\Windows\System32\svchost.exe 
+  CPU Percent: 0.0 
+  Memory Info: rss: 7634944, vms: 6709248 
+  Create Time: 1702653418.4487576 
+  Status: running 
+  Username: NT AUTHORITY\SYSTEM 
+  Connections: [] 
+  Number of Threads: 5 
+---------------------------------------------------------------
+---------------------------------------------------------------
+Process Info for PID 1980: 
+  PID: 1980
+  Name: svchost.exe 
+  Path: C:\Windows\System32\svchost.exe 
+  CPU Percent: 0.0 
+  Memory Info: rss: 14974976, vms: 16957440 
+  Create Time: 1702650726.3210196 
+  Status: running 
+  Username: NT AUTHORITY\LOCAL SERVICE 
+  Connections: [pconn(fd=-1, family=<AddressFamily.AF_INET: 2>, type=<SocketKind.SOCK_STREAM: 1>, laddr=addr(ip='0.0.0.0', port=49666), raddr=(), status='LISTEN'), pconn(fd=-1, family=<AddressFamily.AF_INET6: 23>, type=<SocketKind.SOCK_STREAM: 1>, laddr=addr(ip='::', port=49666), raddr=(), status='LISTEN')] 
+  Number of Threads: 6 
+---------------------------------------------------------------
+---------------------------------------------------------------
+Process Info for PID 2016: 
+  PID: 2016
+  Name: chrome.exe 
+  Path: C:\Program Files\Google\Chrome\Application\chrome.exe 
+  CPU Percent: 0.0 
+  Memory Info: rss: 10350592, vms: 7536640 
+  Create Time: 1702721601.299358 
+  Status: running 
+  Username: DESKTOP-91K1AQU\Hp 
+  Connections: [] 
+  Number of Threads: 7 
+---------------------------------------------------------------
+---------------------------------------------------------------
+Process Info for PID 2128: 
+  PID: 2128
+  Name: svchost.exe 
+  Path: C:\Windows\System32\svchost.exe 
+  CPU Percent: 0.0 
+  Memory Info: rss: 9187328, vms: 7385088 
+  Create Time: 1702650726.3830972 
+  Status: running 
+  Username: NT AUTHORITY\LOCAL SERVICE 
+  Connections: [] 
+  Number of Threads: 1 
+---------------------------------------------------------------
+---------------------------------------------------------------
+Process Info for PID 2208: 
+  PID: 2208
+  Name: svchost.exe 
+  Path: C:\Windows\System32\svchost.exe 
+  CPU Percent: 0.0 
+  Memory Info: rss: 6557696, vms: 1748992 
+  Create Time: 1702650726.3950126 
+  Status: running 
+  Username: NT AUTHORITY\SYSTEM 
+  Connections: [] 
+  Number of Threads: 1 
+---------------------------------------------------------------
+---------------------------------------------------------------
+Process Info for PID 2236: 
+  PID: 2236
+  Name: svchost.exe 
+  Path: C:\Windows\System32\svchost.exe 
+  CPU Percent: 0.0 
+  Memory Info: rss: 5271552, vms: 1536000 
+  Create Time: 1702650726.3981795 
+  Status: running 
+  Username: NT AUTHORITY\LOCAL SERVICE 
+  Connections: [] 
+  Number of Threads: 1 
+---------------------------------------------------------------
+---------------------------------------------------------------
+Process Info for PID 2248: 
+  PID: 2248
+  Name: svchost.exe 
+  Path: C:\Windows\System32\svchost.exe 
+  CPU Percent: 0.0 
+  Memory Info: rss: 18423808, vms: 3571712 
+  Create Time: 1702650726.3990145 
+  Status: running 
+  Username: NT AUTHORITY\SYSTEM 
+  Connections: [] 
+  Number of Threads: 5 
+---------------------------------------------------------------
+---------------------------------------------------------------
+Process Info for PID 2360: 
+  PID: 2360
+  Name: svchost.exe 
+  Path: C:\Windows\System32\svchost.exe 
+  CPU Percent: 0.0 
+  Memory Info: rss: 7671808, vms: 2113536 
+  Create Time: 1702650726.4205377 
+  Status: running 
+  Username: NT AUTHORITY\SYSTEM 
+  Connections: [] 
+  Number of Threads: 2 
+---------------------------------------------------------------
+---------------------------------------------------------------
+Process Info for PID 2408: 
+  PID: 2408
+  Name: svchost.exe 
+  Path: C:\Windows\System32\svchost.exe 
+  CPU Percent: 0.0 
+  Memory Info: rss: 6377472, vms: 2600960 
+  Create Time: 1702650726.4310353 
+  Status: running 
+  Username: NT AUTHORITY\LOCAL SERVICE 
+  Connections: [] 
+  Number of Threads: 7 
+---------------------------------------------------------------
+---------------------------------------------------------------
+Process Info for PID 2564: 
+  PID: 2564
+  Name: igfxCUIServiceN.exe 
+  Path: C:\Windows\System32\DriverStore\FileRepository\cui_dch.inf_amd64_dc2a57d591329a30\igfxCUIServiceN.exe 
+  CPU Percent: 0.0 
+  Memory Info: rss: 8527872, vms: 2387968 
+  Create Time: 1702650726.4782903 
+  Status: running 
+  Username: NT AUTHORITY\SYSTEM 
+  Connections: [] 
+  Number of Threads: 3 
+---------------------------------------------------------------
+---------------------------------------------------------------
+Process Info for PID 2600: 
+  PID: 2600
+  Name: svchost.exe 
+  Path: C:\Windows\System32\svchost.exe 
+  CPU Percent: 0.0 
+  Memory Info: rss: 5394432, vms: 1949696 
+  Create Time: 1702650726.4908721 
+  Status: running 
+  Username: NT AUTHORITY\SYSTEM 
+  Connections: [] 
+  Number of Threads: 3 
+---------------------------------------------------------------
+---------------------------------------------------------------
+Process Info for PID 2612: 
+  PID: 2612
+  Name: svchost.exe 
+  Path: C:\Windows\System32\svchost.exe 
+  CPU Percent: 0.0 
+  Memory Info: rss: 9129984, vms: 2473984 
+  Create Time: 1702650726.492428 
+  Status: running 
+  Username: NT AUTHORITY\LOCAL SERVICE 
+  Connections: [] 
+  Number of Threads: 2 
+---------------------------------------------------------------
+---------------------------------------------------------------
+Process Info for PID 2668: 
+  PID: 2668
+  Name: svchost.exe 
+  Path: C:\Windows\System32\svchost.exe 
+  CPU Percent: 0.0 
+  Memory Info: rss: 11472896, vms: 3031040 
+  Create Time: 1702650726.519512 
+  Status: running 
+  Username: NT AUTHORITY\SYSTEM 
+  Connections: [] 
+  Number of Threads: 3 
+---------------------------------------------------------------
+---------------------------------------------------------------
+Process Info for PID 2704: 
+  PID: 2704
+  Name: AppHelperCap.exe 
+  Path: C:\Windows\System32\DriverStore\FileRepository\hpcustomcapcomp.inf_amd64_30f448e100bbebf7\x64\AppHelperCap.exe 
+  CPU Percent: 0.0 
+  Memory Info: rss: 15712256, vms: 5607424 
+  Create Time: 1702650726.5285888 
+  Status: running 
+  Username: NT AUTHORITY\SYSTEM 
+  Connections: [] 
+  Number of Threads: 5 
+---------------------------------------------------------------
+---------------------------------------------------------------
+Process Info for PID 2732: 
+  PID: 2732
+  Name: DiagsCap.exe 
+  Path: C:\Windows\System32\DriverStore\FileRepository\hpcustomcapcomp.inf_amd64_30f448e100bbebf7\x64\DiagsCap.exe 
+  CPU Percent: 0.0 
+  Memory Info: rss: 11251712, vms: 11755520 
+  Create Time: 1702650726.531433 
+  Status: running 
+  Username: NT AUTHORITY\SYSTEM 
+  Connections: [] 
+  Number of Threads: 3 
+---------------------------------------------------------------
+---------------------------------------------------------------
+Process Info for PID 2760: 
+  PID: 2760
+  Name: NetworkCap.exe 
+  Path: C:\Windows\System32\DriverStore\FileRepository\hpcustomcapcomp.inf_amd64_30f448e100bbebf7\x64\NetworkCap.exe 
+  CPU Percent: 0.0 
+  Memory Info: rss: 29958144, vms: 7954432 
+  Create Time: 1702650726.5378003 
+  Status: running 
+  Username: NT AUTHORITY\SYSTEM 
+  Connections: [] 
+  Number of Threads: 5 
+---------------------------------------------------------------
+---------------------------------------------------------------
+Process Info for PID 2776: 
+  PID: 2776
+  Name: SysInfoCap.exe 
+  Path: C:\Windows\System32\DriverStore\FileRepository\hpcustomcapcomp.inf_amd64_30f448e100bbebf7\x64\SysInfoCap.exe 
+  CPU Percent: 0.0 
+  Memory Info: rss: 15085568, vms: 9957376 
+  Create Time: 1702650726.5433562 
+  Status: running 
+  Username: NT AUTHORITY\SYSTEM 
+  Connections: [] 
+  Number of Threads: 9 
+---------------------------------------------------------------
+---------------------------------------------------------------
+Process Info for PID 2784: 
+  PID: 2784
+  Name: svchost.exe 
+  Path: C:\Windows\System32\svchost.exe 
+  CPU Percent: 0.0 
+  Memory Info: rss: 17473536, vms: 12345344 
+  Create Time: 1702650726.544319 
+  Status: running 
+  Username: NT AUTHORITY\SYSTEM 
+  Connections: [] 
+  Number of Threads: 10 
+---------------------------------------------------------------
+---------------------------------------------------------------
+Process Info for PID 2828: 
+  PID: 2828
+  Name: svchost.exe 
+  Path: C:\Windows\System32\svchost.exe 
+  CPU Percent: 0.0 
+  Memory Info: rss: 20627456, vms: 12656640 
+  Create Time: 1702650726.552879 
+  Status: running 
+  Username: NT AUTHORITY\SYSTEM 
+  Connections: [] 
+  Number of Threads: 4 
+---------------------------------------------------------------
+---------------------------------------------------------------
+Process Info for PID 2944: 
+  PID: 2944
+  Name: svchost.exe 
+  Path: C:\Windows\System32\svchost.exe 
+  CPU Percent: 0.0 
+  Memory Info: rss: 11886592, vms: 5398528 
+  Create Time: 1702650726.5813649 
+  Status: running 
+  Username: NT AUTHORITY\NETWORK SERVICE 
+  Connections: [] 
+  Number of Threads: 6 
+---------------------------------------------------------------
+---------------------------------------------------------------
+Process Info for PID 2988: 
+  PID: 2988
+  Name: dasHost.exe 
+  Path: C:\Windows\System32\dasHost.exe 
+  CPU Percent: 0.0 
+  Memory Info: rss: 10817536, vms: 5451776 
+  Create Time: 1702650726.6047747 
+  Status: running 
+  Username: NT AUTHORITY\LOCAL SERVICE 
+  Connections: [pconn(fd=-1, family=<AddressFamily.AF_INET: 2>, type=<SocketKind.SOCK_DGRAM: 2>, laddr=addr(ip='0.0.0.0', port=51586), raddr=(), status='NONE'), pconn(fd=-1, family=<AddressFamily.AF_INET6: 23>, type=<SocketKind.SOCK_DGRAM: 2>, laddr=addr(ip='::', port=3702), raddr=(), status='NONE'), pconn(fd=-1, family=<AddressFamily.AF_INET6: 23>, type=<SocketKind.SOCK_DGRAM: 2>, laddr=addr(ip='::', port=51587), raddr=(), status='NONE'), pconn(fd=-1, family=<AddressFamily.AF_INET: 2>, type=<SocketKind.SOCK_DGRAM: 2>, laddr=addr(ip='0.0.0.0', port=3702), raddr=(), status='NONE')] 
+  Number of Threads: 3 
+---------------------------------------------------------------
+---------------------------------------------------------------
+Process Info for PID 3044: 
+  PID: 3044
+  Name: TouchpointAnalyticsClientService.exe 
+  Path: C:\Windows\System32\DriverStore\FileRepository\hpanalyticscomp.inf_amd64_2f779d0a8fdf496c\x64\TouchpointAnalyticsClientService.exe 
+  CPU Percent: 0.0 
+  Memory Info: rss: 39866368, vms: 60080128 
+  Create Time: 1702650726.6182015 
+  Status: running 
+  Username: NT AUTHORITY\SYSTEM 
+  Connections: [] 
+  Number of Threads: 9 
+---------------------------------------------------------------
+---------------------------------------------------------------
+Process Info for PID 3084: 
+  PID: 3084
+  Name: svchost.exe 
+  Path: C:\Windows\System32\svchost.exe 
+  CPU Percent: 0.0 
+  Memory Info: rss: 17039360, vms: 8519680 
+  Create Time: 1702650726.6572945 
+  Status: running 
+  Username: NT AUTHORITY\NETWORK SERVICE 
+  Connections: [] 
+  Number of Threads: 5 
+---------------------------------------------------------------
+---------------------------------------------------------------
+Process Info for PID 3148: 
+  PID: 3148
+  Name: dllhost.exe 
+  Path: C:\Windows\System32\dllhost.exe 
+  CPU Percent: 0.0 
+  Memory Info: rss: 9551872, vms: 3452928 
+  Create Time: 1702650740.4850514 
+  Status: running 
+  Username: NT AUTHORITY\SYSTEM 
+  Connections: [] 
+  Number of Threads: 5 
+---------------------------------------------------------------
+---------------------------------------------------------------
+Process Info for PID 3156: 
+  PID: 3156
+  Name: svchost.exe 
+  Path: C:\Windows\System32\svchost.exe 
+  CPU Percent: 0.0 
+  Memory Info: rss: 9064448, vms: 3407872 
+  Create Time: 1702650726.6875536 
+  Status: running 
+  Username: NT AUTHORITY\LOCAL SERVICE 
+  Connections: [] 
+  Number of Threads: 6 
+---------------------------------------------------------------
+---------------------------------------------------------------
+Process Info for PID 3208: 
+  PID: 3208
+  Name: svchost.exe 
+  Path: C:\Windows\System32\svchost.exe 
+  CPU Percent: 0.0 
+  Memory Info: rss: 9158656, vms: 2113536 
+  Create Time: 1702650778.5031717 
+  Status: running 
+  Username: NT AUTHORITY\SYSTEM 
+  Connections: [] 
+  Number of Threads: 1 
+---------------------------------------------------------------
+---------------------------------------------------------------
+Process Info for PID 3364: 
+  PID: 3364
+  Name: svchost.exe 
+  Path: C:\Windows\System32\svchost.exe 
+  CPU Percent: 0.0 
+  Memory Info: rss: 6488064, vms: 1998848 
+  Create Time: 1702650726.8043797 
+  Status: running 
+  Username: NT AUTHORITY\LOCAL SERVICE 
+  Connections: [] 
+  Number of Threads: 2 
+---------------------------------------------------------------
+---------------------------------------------------------------
+Process Info for PID 3432: 
+  PID: 3432
+  Name: conhost.exe 
+  Path: C:\Windows\System32\conhost.exe 
+  CPU Percent: 0.0 
+  Memory Info: rss: 5877760, vms: 6610944 
+  Create Time: 1702734283.4242167 
+  Status: running 
+  Username: DESKTOP-91K1AQU\Hp 
+  Connections: [] 
+  Number of Threads: 2 
+---------------------------------------------------------------
+---------------------------------------------------------------
+Process Info for PID 3464: 
+  PID: 3464
+  Name: svchost.exe 
+  Path: C:\Windows\System32\svchost.exe 
+  CPU Percent: 0.0 
+  Memory Info: rss: 7557120, vms: 3817472 
+  Create Time: 1702650726.910637 
+  Status: running 
+  Username: NT AUTHORITY\NETWORK SERVICE 
+  Connections: [pconn(fd=-1, family=<AddressFamily.AF_INET6: 23>, type=<SocketKind.SOCK_DGRAM: 2>, laddr=addr(ip='::', port=5353), raddr=(), status='NONE'), pconn(fd=-1, family=<AddressFamily.AF_INET6: 23>, type=<SocketKind.SOCK_DGRAM: 2>, laddr=addr(ip='::', port=5355), raddr=(), status='NONE'), pconn(fd=-1, family=<AddressFamily.AF_INET: 2>, type=<SocketKind.SOCK_DGRAM: 2>, laddr=addr(ip='0.0.0.0', port=5353), raddr=(), status='NONE'), pconn(fd=-1, family=<AddressFamily.AF_INET: 2>, type=<SocketKind.SOCK_DGRAM: 2>, laddr=addr(ip='0.0.0.0', port=5355), raddr=(), status='NONE')] 
+  Number of Threads: 9 
+---------------------------------------------------------------
+---------------------------------------------------------------
+Process Info for PID 3592: 
+  PID: 3592
+  Name: AvastUI.exe 
+  Path: C:\Program Files\Avast Software\Avast\AvastUI.exe 
+  CPU Percent: 0.0 
+  Memory Info: rss: 59031552, vms: 46694400 
+  Create Time: 1702721608.9336212 
+  Status: running 
+  Username: DESKTOP-91K1AQU\Hp 
+  Connections: [] 
+  Number of Threads: 42 
+---------------------------------------------------------------
+---------------------------------------------------------------
+Process Info for PID 3644: 
+  PID: 3644
+  Name: svchost.exe 
+  Path: C:\Windows\System32\svchost.exe 
+  CPU Percent: 0.0 
+  Memory Info: rss: 6144000, vms: 2449408 
+  Create Time: 1702650727.167663 
+  Status: running 
+  Username: NT AUTHORITY\LOCAL SERVICE 
+  Connections: [pconn(fd=-1, family=<AddressFamily.AF_INET6: 23>, type=<SocketKind.SOCK_DGRAM: 2>, laddr=addr(ip='::1', port=1900), raddr=(), status='NONE'), pconn(fd=-1, family=<AddressFamily.AF_INET: 2>, type=<SocketKind.SOCK_DGRAM: 2>, laddr=addr(ip='192.168.56.1', port=1900), raddr=(), status='NONE'), pconn(fd=-1, family=<AddressFamily.AF_INET: 2>, type=<SocketKind.SOCK_DGRAM: 2>, laddr=addr(ip='127.0.0.1', port=54032), raddr=(), status='NONE'), pconn(fd=-1, family=<AddressFamily.AF_INET6: 23>, type=<SocketKind.SOCK_DGRAM: 2>, laddr=addr(ip='fe80::4072:17ab:3e33:55a4', port=54027), raddr=(), status='NONE'), pconn(fd=-1, family=<AddressFamily.AF_INET6: 23>, type=<SocketKind.SOCK_DGRAM: 2>, laddr=addr(ip='::1', port=54029), raddr=(), status='NONE'), pconn(fd=-1, family=<AddressFamily.AF_INET6: 23>, type=<SocketKind.SOCK_DGRAM: 2>, laddr=addr(ip='fe80::4072:17ab:3e33:55a4', port=1900), raddr=(), status='NONE'), pconn(fd=-1, family=<AddressFamily.AF_INET: 2>, type=<SocketKind.SOCK_DGRAM: 2>, laddr=addr(ip='127.0.0.1', port=1900), raddr=(), status='NONE'), pconn(fd=-1, family=<AddressFamily.AF_INET: 2>, type=<SocketKind.SOCK_DGRAM: 2>, laddr=addr(ip='192.168.100.182', port=54031), raddr=(), status='NONE'), pconn(fd=-1, family=<AddressFamily.AF_INET: 2>, type=<SocketKind.SOCK_DGRAM: 2>, laddr=addr(ip='192.168.56.1', port=54030), raddr=(), status='NONE'), pconn(fd=-1, family=<AddressFamily.AF_INET: 2>, type=<SocketKind.SOCK_DGRAM: 2>, laddr=addr(ip='192.168.100.182', port=1900), raddr=(), status='NONE'), pconn(fd=-1, family=<AddressFamily.AF_INET6: 23>, type=<SocketKind.SOCK_DGRAM: 2>, laddr=addr(ip='fe80::903f:2be9:94e1:a708', port=1900), raddr=(), status='NONE'), pconn(fd=-1, family=<AddressFamily.AF_INET6: 23>, type=<SocketKind.SOCK_DGRAM: 2>, laddr=addr(ip='fe80::903f:2be9:94e1:a708', port=54028), raddr=(), status='NONE')] 
+  Number of Threads: 8 
+---------------------------------------------------------------
+---------------------------------------------------------------
+Process Info for PID 3744: 
+  PID: 3744
+  Name: svchost.exe 
+  Path: C:\Windows\System32\svchost.exe 
+  CPU Percent: 0.0 
+  Memory Info: rss: 4202496, vms: 1347584 
+  Create Time: 1702650727.3018796 
+  Status: running 
+  Username: NT AUTHORITY\SYSTEM 
+  Connections: [] 
+  Number of Threads: 3 
+---------------------------------------------------------------
+---------------------------------------------------------------
+Process Info for PID 3752: 
+  PID: 3752
+  Name: svchost.exe 
+  Path: C:\Windows\System32\svchost.exe 
+  CPU Percent: 0.0 
+  Memory Info: rss: 13303808, vms: 2875392 
+  Create Time: 1702650727.3018827 
+  Status: running 
+  Username: NT AUTHORITY\SYSTEM 
+  Connections: [] 
+  Number of Threads: 2 
+---------------------------------------------------------------
+---------------------------------------------------------------
+Process Info for PID 3760: 
+  PID: 3760
+  Name: wsc_proxy.exe 
+  Path: C:\Program Files\Avast Software\Avast\wsc_proxy.exe 
+  CPU Percent: 0.0 
+  Memory Info: rss: 8237056, vms: 4853760 
+  Create Time: 1702650727.3030324 
+  Status: running 
+  Username: NT AUTHORITY\SYSTEM 
+  Connections: [] 
+  Number of Threads: 8 
+---------------------------------------------------------------
+---------------------------------------------------------------
+Process Info for PID 3848: 
+  PID: 3848
+  Name: MemCompression 
+  Path: MemCompression 
+  CPU Percent: 0.0 
+  Memory Info: rss: 165376000, vms: 1622016 
+  Create Time: 1702650727.3301153 
+  Status: running 
+  Username: NT AUTHORITY\SYSTEM 
+  Connections: [] 
+  Number of Threads: 38 
+---------------------------------------------------------------
+---------------------------------------------------------------
+Process Info for PID 3964: 
+  PID: 3964
+  Name: notepad.exe 
+  Path: C:\Windows\System32\notepad.exe 
+  CPU Percent: 0.0 
+  Memory Info: rss: 15028224, vms: 2838528 
+  Create Time: 1702732022.7897692 
+  Status: running 
+  Username: DESKTOP-91K1AQU\Hp 
+  Connections: [] 
+  Number of Threads: 1 
+---------------------------------------------------------------
+---------------------------------------------------------------
+Process Info for PID 4008: 
+  PID: 4008
+  Name: unsecapp.exe 
+  Path: C:\Windows\System32\wbem\unsecapp.exe 
+  CPU Percent: 0.0 
+  Memory Info: rss: 8044544, vms: 2048000 
+  Create Time: 1702650727.4029543 
+  Status: running 
+  Username: NT AUTHORITY\SYSTEM 
+  Connections: [] 
+  Number of Threads: 3 
+---------------------------------------------------------------
+---------------------------------------------------------------
+Process Info for PID 4088: 
+  PID: 4088
+  Name: PaintStudio.View.exe 
+  Path: C:\Program Files\WindowsApps\Microsoft.MSPaint_6.2310.24037.0_x64__8wekyb3d8bbwe\PaintStudio.View.exe 
+  CPU Percent: 0.0 
+  Memory Info: rss: 1548288, vms: 58261504 
+  Create Time: 1702721692.1796918 
+  Status: stopped 
+  Username: DESKTOP-91K1AQU\Hp 
+  Connections: [] 
+  Number of Threads: 32 
+---------------------------------------------------------------
+---------------------------------------------------------------
+Process Info for PID 4140: 
+  PID: 4140
+  Name: svchost.exe 
+  Path: C:\Windows\System32\svchost.exe 
+  CPU Percent: 0.0 
+  Memory Info: rss: 6615040, vms: 1990656 
+  Create Time: 1702650727.492741 
+  Status: running 
+  Username: NT AUTHORITY\SYSTEM 
+  Connections: [] 
+  Number of Threads: 2 
+---------------------------------------------------------------
+---------------------------------------------------------------
+Process Info for PID 4148: 
+  PID: 4148
+  Name: svchost.exe 
+  Path: C:\Windows\System32\svchost.exe 
+  CPU Percent: 0.0 
+  Memory Info: rss: 6492160, vms: 2150400 
+  Create Time: 1702650727.4946249 
+  Status: running 
+  Username: NT AUTHORITY\LOCAL SERVICE 
+  Connections: [] 
+  Number of Threads: 4 
+---------------------------------------------------------------
+---------------------------------------------------------------
+Process Info for PID 4244: 
+  PID: 4244
+  Name: WmiPrvSE.exe 
+  Path: C:\Windows\System32\wbem\WmiPrvSE.exe 
+  CPU Percent: 0.0 
+  Memory Info: rss: 11964416, vms: 4923392 
+  Create Time: 1702650727.5480497 
+  Status: running 
+  Username: NT AUTHORITY\SYSTEM 
+  Connections: [] 
+  Number of Threads: 4 
+---------------------------------------------------------------
+---------------------------------------------------------------
+Process Info for PID 4384: 
+  PID: 4384
+  Name: svchost.exe 
+  Path: C:\Windows\System32\svchost.exe 
+  CPU Percent: 0.0 
+  Memory Info: rss: 12537856, vms: 3182592 
+  Create Time: 1702650727.7667744 
+  Status: running 
+  Username: NT AUTHORITY\LOCAL SERVICE 
+  Connections: [] 
+  Number of Threads: 7 
+---------------------------------------------------------------
+---------------------------------------------------------------
+Process Info for PID 4468: 
+  PID: 4468
+  Name: WmiPrvSE.exe 
+  Path: C:\Windows\SysWOW64\wbem\WmiPrvSE.exe 
+  CPU Percent: 0.0 
+  Memory Info: rss: 9834496, vms: 4108288 
+  Create Time: 1702650934.7852647 
+  Status: running 
+  Username: NT AUTHORITY\NETWORK SERVICE 
+  Connections: [] 
+  Number of Threads: 3 
+---------------------------------------------------------------
+---------------------------------------------------------------
+Process Info for PID 4540: 
+  PID: 4540
+  Name: svchost.exe 
+  Path: C:\Windows\System32\svchost.exe 
+  CPU Percent: 0.0 
+  Memory Info: rss: 8753152, vms: 3035136 
+  Create Time: 1702650727.9055324 
+  Status: running 
+  Username: NT AUTHORITY\LOCAL SERVICE 
+  Connections: [] 
+  Number of Threads: 8 
+---------------------------------------------------------------
+---------------------------------------------------------------
+Process Info for PID 4548: 
+  PID: 4548
+  Name: svchost.exe 
+  Path: C:\Windows\System32\svchost.exe 
+  CPU Percent: 0.0 
+  Memory Info: rss: 5316608, vms: 1818624 
+  Create Time: 1702650727.9076307 
+  Status: running 
+  Username: NT AUTHORITY\LOCAL SERVICE 
+  Connections: [] 
+  Number of Threads: 4 
+---------------------------------------------------------------
+---------------------------------------------------------------
+Process Info for PID 4556: 
+  PID: 4556
+  Name: QHActiveDefense.exe 
+  Path: C:\Program Files (x86)\360\Total Security\safemon\QHActiveDefense.exe 
+  CPU Percent: 0.0 
+  Memory Info: rss: 65097728, vms: 102117376 
+  Create Time: 1702650727.9086185 
+  Status: running 
+  Username: NT AUTHORITY\SYSTEM 
+  Connections: [pconn(fd=-1, family=<AddressFamily.AF_INET: 2>, type=<SocketKind.SOCK_DGRAM: 2>, laddr=addr(ip='0.0.0.0', port=58902), raddr=(), status='NONE'), pconn(fd=-1, family=<AddressFamily.AF_INET: 2>, type=<SocketKind.SOCK_STREAM: 1>, laddr=addr(ip='192.168.100.182', port=52013), raddr=addr(ip='54.77.143.119', port=80), status='ESTABLISHED')] 
+  Number of Threads: 75 
+---------------------------------------------------------------
+---------------------------------------------------------------
+Process Info for PID 4688: 
+  PID: 4688
+  Name: TGitCache.exe 
+  Path: C:\Program Files\TortoiseGit\bin\TGitCache.exe 
+  CPU Percent: 0.0 
+  Memory Info: rss: 19140608, vms: 22720512 
+  Create Time: 1702721825.040065 
+  Status: running 
+  Username: DESKTOP-91K1AQU\Hp 
+  Connections: [] 
+  Number of Threads: 11 
+---------------------------------------------------------------
+---------------------------------------------------------------
+Process Info for PID 4816: 
+  PID: 4816
+  Name: svchost.exe 
+  Path: C:\Windows\System32\svchost.exe 
+  CPU Percent: 0.0 
+  Memory Info: rss: 15990784, vms: 7258112 
+  Create Time: 1702650728.0577867 
+  Status: running 
+  Username: NT AUTHORITY\SYSTEM 
+  Connections: [] 
+  Number of Threads: 16 
+---------------------------------------------------------------
+---------------------------------------------------------------
+Process Info for PID 4920: 
+  PID: 4920
+  Name: ETDTouch.exe 
+  Path: C:\Windows\System32\ETDTouch.exe 
+  CPU Percent: 0.0 
+  Memory Info: rss: 5550080, vms: 1880064 
+  Create Time: 1702721591.2999527 
+  Status: running 
+  Username: DESKTOP-91K1AQU\Hp 
+  Connections: [] 
+  Number of Threads: 2 
+---------------------------------------------------------------
+---------------------------------------------------------------
+Process Info for PID 5012: 
+  PID: 5012
+  Name: svchost.exe 
+  Path: C:\Windows\System32\svchost.exe 
+  CPU Percent: 0.0 
+  Memory Info: rss: 15310848, vms: 3543040 
+  Create Time: 1702650728.1826708 
+  Status: running 
+  Username: NT AUTHORITY\SYSTEM 
+  Connections: [] 
+  Number of Threads: 2 
+---------------------------------------------------------------
+---------------------------------------------------------------
+Process Info for PID 5048: 
+  PID: 5048
+  Name: AvastSvc.exe 
+  Path: C:\Program Files\Avast Software\Avast\AvastSvc.exe 
+  CPU Percent: 0.0 
+  Memory Info: rss: 60309504, vms: 261345280 
+  Create Time: 1702650728.1964133 
+  Status: running 
+  Username: NT AUTHORITY\SYSTEM 
+  Connections: [pconn(fd=-1, family=<AddressFamily.AF_INET: 2>, type=<SocketKind.SOCK_STREAM: 1>, laddr=addr(ip='127.0.0.1', port=12119), raddr=(), status='LISTEN'), pconn(fd=-1, family=<AddressFamily.AF_INET: 2>, type=<SocketKind.SOCK_STREAM: 1>, laddr=addr(ip='192.168.100.182', port=61487), raddr=addr(ip='82.77.255.59', port=443), status='ESTABLISHED'), pconn(fd=-1, family=<AddressFamily.AF_INET6: 23>, type=<SocketKind.SOCK_STREAM: 1>, laddr=addr(ip='::1', port=12119), raddr=(), status='LISTEN'), pconn(fd=-1, family=<AddressFamily.AF_INET6: 23>, type=<SocketKind.SOCK_STREAM: 1>, laddr=addr(ip='::1', port=27275), raddr=(), status='LISTEN'), pconn(fd=-1, family=<AddressFamily.AF_INET6: 23>, type=<SocketKind.SOCK_STREAM: 1>, laddr=addr(ip='::1', port=12465), raddr=(), status='LISTEN'), pconn(fd=-1, family=<AddressFamily.AF_INET: 2>, type=<SocketKind.SOCK_STREAM: 1>, laddr=addr(ip='127.0.0.1', port=27275), raddr=(), status='LISTEN'), pconn(fd=-1, family=<AddressFamily.AF_INET6: 23>, type=<SocketKind.SOCK_STREAM: 1>, laddr=addr(ip='::1', port=12995), raddr=(), status='LISTEN'), pconn(fd=-1, family=<AddressFamily.AF_INET: 2>, type=<SocketKind.SOCK_STREAM: 1>, laddr=addr(ip='127.0.0.1', port=12025), raddr=(), status='LISTEN'), pconn(fd=-1, family=<AddressFamily.AF_INET: 2>, type=<SocketKind.SOCK_STREAM: 1>, laddr=addr(ip='127.0.0.1', port=12143), raddr=(), status='LISTEN'), pconn(fd=-1, family=<AddressFamily.AF_INET6: 23>, type=<SocketKind.SOCK_STREAM: 1>, laddr=addr(ip='::1', port=12025), raddr=(), status='LISTEN'), pconn(fd=-1, family=<AddressFamily.AF_INET6: 23>, type=<SocketKind.SOCK_STREAM: 1>, laddr=addr(ip='::1', port=12110), raddr=(), status='LISTEN'), pconn(fd=-1, family=<AddressFamily.AF_INET: 2>, type=<SocketKind.SOCK_STREAM: 1>, laddr=addr(ip='192.168.100.182', port=65529), raddr=addr(ip='34.73.71.173', port=7500), status='ESTABLISHED'), pconn(fd=-1, family=<AddressFamily.AF_INET: 2>, type=<SocketKind.SOCK_STREAM: 1>, laddr=addr(ip='127.0.0.1', port=12110), raddr=(), status='LISTEN'), pconn(fd=-1, family=<AddressFamily.AF_INET: 2>, type=<SocketKind.SOCK_STREAM: 1>, laddr=addr(ip='127.0.0.1', port=12993), raddr=(), status='LISTEN'), pconn(fd=-1, family=<AddressFamily.AF_INET6: 23>, type=<SocketKind.SOCK_STREAM: 1>, laddr=addr(ip='::1', port=12143), raddr=(), status='LISTEN'), pconn(fd=-1, family=<AddressFamily.AF_INET6: 23>, type=<SocketKind.SOCK_STREAM: 1>, laddr=addr(ip='::1', port=12563), raddr=(), status='LISTEN'), pconn(fd=-1, family=<AddressFamily.AF_INET: 2>, type=<SocketKind.SOCK_STREAM: 1>, laddr=addr(ip='127.0.0.1', port=12563), raddr=(), status='LISTEN'), pconn(fd=-1, family=<AddressFamily.AF_INET: 2>, type=<SocketKind.SOCK_STREAM: 1>, laddr=addr(ip='127.0.0.1', port=12465), raddr=(), status='LISTEN'), pconn(fd=-1, family=<AddressFamily.AF_INET6: 23>, type=<SocketKind.SOCK_STREAM: 1>, laddr=addr(ip='::1', port=12993), raddr=(), status='LISTEN'), pconn(fd=-1, family=<AddressFamily.AF_INET: 2>, type=<SocketKind.SOCK_STREAM: 1>, laddr=addr(ip='127.0.0.1', port=12995), raddr=(), status='LISTEN')] 
+  Number of Threads: 158 
+---------------------------------------------------------------
+---------------------------------------------------------------
+Process Info for PID 5088: 
+  PID: 5088
+  Name: svchost.exe 
+  Path: C:\Windows\System32\svchost.exe 
+  CPU Percent: 0.0 
+  Memory Info: rss: 12349440, vms: 4198400 
+  Create Time: 1702650984.2197318 
+  Status: running 
+  Username: NT AUTHORITY\LOCAL SERVICE 
+  Connections: [] 
+  Number of Threads: 4 
+---------------------------------------------------------------
+---------------------------------------------------------------
+Process Info for PID 5096: 
+  PID: 5096
+  Name: svchost.exe 
+  Path: C:\Windows\System32\svchost.exe 
+  CPU Percent: 0.0 
+  Memory Info: rss: 12800000, vms: 2969600 
+  Create Time: 1702650728.2236147 
+  Status: running 
+  Username: NT AUTHORITY\SYSTEM 
+  Connections: [] 
+  Number of Threads: 4 
+---------------------------------------------------------------
+---------------------------------------------------------------
+Process Info for PID 5116: 
+  PID: 5116
+  Name: chrome.exe 
+  Path: C:\Program Files\Google\Chrome\Application\chrome.exe 
+  CPU Percent: 0.0 
+  Memory Info: rss: 196681728, vms: 191356928 
+  Create Time: 1702721931.1496348 
+  Status: running 
+  Username: DESKTOP-91K1AQU\Hp 
+  Connections: [] 
+  Number of Threads: 25 
+---------------------------------------------------------------
+---------------------------------------------------------------
+Process Info for PID 5380: 
+  PID: 5380
+  Name: SearchApp.exe 
+  Path: C:\Windows\SystemApps\Microsoft.Windows.Search_cw5n1h2txyewy\SearchApp.exe 
+  CPU Percent: 0.0 
+  Memory Info: rss: 79208448, vms: 248283136 
+  Create Time: 1702721596.1866312 
+  Status: stopped 
+  Username: DESKTOP-91K1AQU\Hp 
+  Connections: [pconn(fd=-1, family=<AddressFamily.AF_INET6: 23>, type=<SocketKind.SOCK_STREAM: 1>, laddr=addr(ip='2a02:2f00:c10e:100:5d29:8fc1:fb4a:e23e', port=52993), raddr=addr(ip='2606:2800:233:6a53:4ac1:3bc8:ee4e:5990', port=443), status='CLOSE_WAIT'), pconn(fd=-1, family=<AddressFamily.AF_INET: 2>, type=<SocketKind.SOCK_STREAM: 1>, laddr=addr(ip='192.168.100.182', port=52991), raddr=addr(ip='92.123.103.67', port=443), status='CLOSE_WAIT')] 
+  Number of Threads: 73 
+---------------------------------------------------------------
+---------------------------------------------------------------
+Process Info for PID 5408: 
+  PID: 5408
+  Name: wlanext.exe 
+  Path: C:\Windows\System32\wlanext.exe 
+  CPU Percent: 0.0 
+  Memory Info: rss: 3756032, vms: 1204224 
+  Create Time: 1702650728.49259 
+  Status: running 
+  Username: NT AUTHORITY\SYSTEM 
+  Connections: [] 
+  Number of Threads: 1 
+---------------------------------------------------------------
+---------------------------------------------------------------
+Process Info for PID 5424: 
+  PID: 5424
+  Name: conhost.exe 
+  Path: C:\Windows\System32\conhost.exe 
+  CPU Percent: 0.0 
+  Memory Info: rss: 3289088, vms: 6377472 
+  Create Time: 1702650728.5103767 
+  Status: running 
+  Username: NT AUTHORITY\SYSTEM 
+  Connections: [] 
+  Number of Threads: 2 
+---------------------------------------------------------------
+---------------------------------------------------------------
+Process Info for PID 5460: 
+  PID: 5460
+  Name: svchost.exe 
+  Path: C:\Windows\System32\svchost.exe 
+  CPU Percent: 0.0 
+  Memory Info: rss: 19320832, vms: 5607424 
+  Create Time: 1702650728.548776 
+  Status: running 
+  Username: NT AUTHORITY\LOCAL SERVICE 
+  Connections: [pconn(fd=-1, family=<AddressFamily.AF_INET: 2>, type=<SocketKind.SOCK_STREAM: 1>, laddr=addr(ip='0.0.0.0', port=5040), raddr=(), status='LISTEN'), pconn(fd=-1, family=<AddressFamily.AF_INET: 2>, type=<SocketKind.SOCK_DGRAM: 2>, laddr=addr(ip='0.0.0.0', port=5050), raddr=(), status='NONE')] 
+  Number of Threads: 9 
+---------------------------------------------------------------
+---------------------------------------------------------------
+Process Info for PID 5548: 
+  PID: 5548
+  Name: chrome.exe 
+  Path: C:\Program Files\Google\Chrome\Application\chrome.exe 
+  CPU Percent: 0.0 
+  Memory Info: rss: 48779264, vms: 36163584 
+  Create Time: 1702721601.9168403 
+  Status: running 
+  Username: DESKTOP-91K1AQU\Hp 
+  Connections: [pconn(fd=-1, family=<AddressFamily.AF_INET6: 23>, type=<SocketKind.SOCK_STREAM: 1>, laddr=addr(ip='2a02:2f00:c10e:100:5d29:8fc1:fb4a:e23e', port=61425), raddr=addr(ip='2a03:2880:f023:12:face:b00c:0:2', port=443), status='ESTABLISHED'), pconn(fd=-1, family=<AddressFamily.AF_INET6: 23>, type=<SocketKind.SOCK_DGRAM: 2>, laddr=addr(ip='::', port=52291), raddr=(), status='NONE'), pconn(fd=-1, family=<AddressFamily.AF_INET: 2>, type=<SocketKind.SOCK_STREAM: 1>, laddr=addr(ip='192.168.100.182', port=61449), raddr=addr(ip='192.168.100.102', port=8009), status='ESTABLISHED'), pconn(fd=-1, family=<AddressFamily.AF_INET6: 23>, type=<SocketKind.SOCK_STREAM: 1>, laddr=addr(ip='2a02:2f00:c10e:100:5d29:8fc1:fb4a:e23e', port=61426), raddr=addr(ip='2a03:2880:f023:12:face:b00c:0:2', port=443), status='ESTABLISHED'), pconn(fd=-1, family=<AddressFamily.AF_INET: 2>, type=<SocketKind.SOCK_DGRAM: 2>, laddr=addr(ip='0.0.0.0', port=60210), raddr=(), status='NONE'), pconn(fd=-1, family=<AddressFamily.AF_INET6: 23>, type=<SocketKind.SOCK_STREAM: 1>, laddr=addr(ip='2a02:2f00:c10e:100:5d29:8fc1:fb4a:e23e', port=65510), raddr=addr(ip='2a00:1450:400c:c0c::bc', port=5228), status='ESTABLISHED'), pconn(fd=-1, family=<AddressFamily.AF_INET6: 23>, type=<SocketKind.SOCK_STREAM: 1>, laddr=addr(ip='2a02:2f00:c10e:100:5d29:8fc1:fb4a:e23e', port=59530), raddr=addr(ip='2a03:2880:f223:c2:face:b00c:0:1cc9', port=443), status='ESTABLISHED'), pconn(fd=-1, family=<AddressFamily.AF_INET: 2>, type=<SocketKind.SOCK_DGRAM: 2>, laddr=addr(ip='0.0.0.0', port=59573), raddr=(), status='NONE'), pconn(fd=-1, family=<AddressFamily.AF_INET6: 23>, type=<SocketKind.SOCK_DGRAM: 2>, laddr=addr(ip='::', port=60210), raddr=(), status='NONE'), pconn(fd=-1, family=<AddressFamily.AF_INET: 2>, type=<SocketKind.SOCK_STREAM: 1>, laddr=addr(ip='192.168.100.182', port=61452), raddr=addr(ip='140.82.114.25', port=443), status='ESTABLISHED'), pconn(fd=-1, family=<AddressFamily.AF_INET6: 23>, type=<SocketKind.SOCK_STREAM: 1>, laddr=addr(ip='2a02:2f00:c10e:100:5d29:8fc1:fb4a:e23e', port=63379), raddr=addr(ip='2a03:2880:f023:12:face:b00c:0:2', port=443), status='ESTABLISHED'), pconn(fd=-1, family=<AddressFamily.AF_INET6: 23>, type=<SocketKind.SOCK_DGRAM: 2>, laddr=addr(ip='::', port=59573), raddr=(), status='NONE'), pconn(fd=-1, family=<AddressFamily.AF_INET6: 23>, type=<SocketKind.SOCK_STREAM: 1>, laddr=addr(ip='2a02:2f00:c10e:100:5d29:8fc1:fb4a:e23e', port=52972), raddr=addr(ip='2a03:2880:f023:c:face:b00c:0:6206', port=443), status='ESTABLISHED'), pconn(fd=-1, family=<AddressFamily.AF_INET: 2>, type=<SocketKind.SOCK_DGRAM: 2>, laddr=addr(ip='0.0.0.0', port=52291), raddr=(), status='NONE')] 
+  Number of Threads: 19 
+---------------------------------------------------------------
+---------------------------------------------------------------
+Process Info for PID 5632: 
+  PID: 5632
+  Name: aswToolsSvc.exe 
+  Path: C:\Program Files\Avast Software\Avast\aswToolsSvc.exe 
+  CPU Percent: 0.0 
+  Memory Info: rss: 29454336, vms: 19824640 
+  Create Time: 1702650728.758515 
+  Status: running 
+  Username: NT AUTHORITY\SYSTEM 
+  Connections: [] 
+  Number of Threads: 26 
+---------------------------------------------------------------
+---------------------------------------------------------------
+Process Info for PID 5812: 
+  PID: 5812
+  Name: fontdrvhost.exe 
+  Path: C:\Windows\System32\fontdrvhost.exe 
+  CPU Percent: 0.0 
+  Memory Info: rss: 8183808, vms: 5070848 
+  Create Time: 1702672088.437866 
+  Status: running 
+  Username: Font Driver Host\UMFD-2 
+  Connections: [] 
+  Number of Threads: 5 
+---------------------------------------------------------------
+---------------------------------------------------------------
+Process Info for PID 5824: 
+  PID: 5824
+  Name: svchost.exe 
+  Path: C:\Windows\System32\svchost.exe 
+  CPU Percent: 0.0 
+  Memory Info: rss: 7221248, vms: 2490368 
+  Create Time: 1702650728.9687417 
+  Status: running 
+  Username: NT AUTHORITY\SYSTEM 
+  Connections: [] 
+  Number of Threads: 6 
+---------------------------------------------------------------
+---------------------------------------------------------------
+Process Info for PID 5884: 
+  PID: 5884
+  Name: spoolsv.exe 
+  Path: C:\Windows\System32\spoolsv.exe 
+  CPU Percent: 0.0 
+  Memory Info: rss: 9715712, vms: 5554176 
+  Create Time: 1702650729.0270662 
+  Status: running 
+  Username: NT AUTHORITY\SYSTEM 
+  Connections: [pconn(fd=-1, family=<AddressFamily.AF_INET6: 23>, type=<SocketKind.SOCK_STREAM: 1>, laddr=addr(ip='::', port=49668), raddr=(), status='LISTEN'), pconn(fd=-1, family=<AddressFamily.AF_INET: 2>, type=<SocketKind.SOCK_STREAM: 1>, laddr=addr(ip='0.0.0.0', port=49668), raddr=(), status='LISTEN')] 
+  Number of Threads: 7 
+---------------------------------------------------------------
+---------------------------------------------------------------
+Process Info for PID 5952: 
+  PID: 5952
+  Name: dllhost.exe 
+  Path: C:\Windows\System32\dllhost.exe 
+  CPU Percent: 0.0 
+  Memory Info: rss: 13193216, vms: 4026368 
+  Create Time: 1702722049.705636 
+  Status: running 
+  Username: DESKTOP-91K1AQU\Hp 
+  Connections: [] 
+  Number of Threads: 6 
+---------------------------------------------------------------
+---------------------------------------------------------------
+Process Info for PID 5980: 
+  PID: 5980
+  Name: chrome.exe 
+  Path: C:\Program Files\Google\Chrome\Application\chrome.exe 
+  CPU Percent: 0.0 
+  Memory Info: rss: 147267584, vms: 152326144 
+  Create Time: 1702721604.829776 
+  Status: running 
+  Username: DESKTOP-91K1AQU\Hp 
+  Connections: [] 
+  Number of Threads: 25 
+---------------------------------------------------------------
+---------------------------------------------------------------
+Process Info for PID 5996: 
+  PID: 5996
+  Name: svchost.exe 
+  Path: C:\Windows\System32\svchost.exe 
+  CPU Percent: 0.0 
+  Memory Info: rss: 13090816, vms: 12234752 
+  Create Time: 1702650729.072611 
+  Status: running 
+  Username: NT AUTHORITY\LOCAL SERVICE 
+  Connections: [] 
+  Number of Threads: 13 
+---------------------------------------------------------------
+---------------------------------------------------------------
+Process Info for PID 6068: 
+  PID: 6068
+  Name: svchost.exe 
+  Path: C:\Windows\System32\svchost.exe 
+  CPU Percent: 0.0 
+  Memory Info: rss: 6352896, vms: 2007040 
+  Create Time: 1702650729.1180916 
+  Status: running 
+  Username: NT AUTHORITY\NETWORK SERVICE 
+  Connections: [] 
+  Number of Threads: 3 
+---------------------------------------------------------------
+---------------------------------------------------------------
+Process Info for PID 6352: 
+  PID: 6352
+  Name: CompPkgSrv.exe 
+  Path: C:\Windows\System32\CompPkgSrv.exe 
+  CPU Percent: 0.0 
+  Memory Info: rss: 7659520, vms: 1929216 
+  Create Time: 1702721613.9233282 
+  Status: running 
+  Username: DESKTOP-91K1AQU\Hp 
+  Connections: [] 
+  Number of Threads: 1 
+---------------------------------------------------------------
+---------------------------------------------------------------
+Process Info for PID 6404: 
+  PID: 6404
+  Name: SECOMN64.exe 
+  Path: C:\Windows\System32\SECOMN64.exe 
+  CPU Percent: 0.0 
+  Memory Info: rss: 6324224, vms: 2633728 
+  Create Time: 1702650730.4303243 
+  Status: running 
+  Username: NT AUTHORITY\SYSTEM 
+  Connections: [] 
+  Number of Threads: 2 
+---------------------------------------------------------------
+---------------------------------------------------------------
+Process Info for PID 6420: 
+  PID: 6420
+  Name: svchost.exe 
+  Path: C:\Windows\System32\svchost.exe 
+  CPU Percent: 0.0 
+  Memory Info: rss: 38322176, vms: 9506816 
+  Create Time: 1702721590.594148 
+  Status: running 
+  Username: DESKTOP-91K1AQU\Hp 
+  Connections: [] 
+  Number of Threads: 3 
+---------------------------------------------------------------
+---------------------------------------------------------------
+Process Info for PID 6436: 
+  PID: 6436
+  Name: svchost.exe 
+  Path: C:\Windows\System32\svchost.exe 
+  CPU Percent: 0.0 
+  Memory Info: rss: 6901760, vms: 2064384 
+  Create Time: 1702650730.4300215 
+  Status: running 
+  Username: NT AUTHORITY\LOCAL SERVICE 
+  Connections: [] 
+  Number of Threads: 4 
+---------------------------------------------------------------
+---------------------------------------------------------------
+Process Info for PID 6544: 
+  PID: 6544
+  Name: svchost.exe 
+  Path: C:\Windows\System32\svchost.exe 
+  CPU Percent: 0.0 
+  Memory Info: rss: 4026368, vms: 1294336 
+  Create Time: 1702650730.436061 
+  Status: running 
+  Username: NT AUTHORITY\SYSTEM 
+  Connections: [] 
+  Number of Threads: 3 
+---------------------------------------------------------------
+---------------------------------------------------------------
+Process Info for PID 6560: 
+  PID: 6560
+  Name: conhost.exe 
+  Path: C:\Windows\System32\conhost.exe 
+  CPU Percent: 0.0 
+  Memory Info: rss: 6549504, vms: 1576960 
+  Create Time: 1702734346.2935152 
+  Status: running 
+  Username: DESKTOP-91K1AQU\Hp 
+  Connections: [] 
+  Number of Threads: 5 
+---------------------------------------------------------------
+---------------------------------------------------------------
+Process Info for PID 6572: 
+  PID: 6572
+  Name: winlogon.exe 
+  Path: C:\Windows\System32\winlogon.exe 
+  CPU Percent: 0.0 
+  Memory Info: rss: 9781248, vms: 2789376 
+  Create Time: 1702672088.3349288 
+  Status: running 
+  Username: NT AUTHORITY\SYSTEM 
+  Connections: [] 
+  Number of Threads: 6 
+---------------------------------------------------------------
+---------------------------------------------------------------
+Process Info for PID 6596: 
+  PID: 6596
+  Name: armsvc.exe 
+  Path: C:\Program Files (x86)\Common Files\Adobe\ARM\1.0\armsvc.exe 
+  CPU Percent: 0.0 
+  Memory Info: rss: 5709824, vms: 1601536 
+  Create Time: 1702650729.984573 
+  Status: running 
+  Username: NT AUTHORITY\SYSTEM 
+  Connections: [] 
+  Number of Threads: 2 
+---------------------------------------------------------------
+---------------------------------------------------------------
+Process Info for PID 6624: 
+  PID: 6624
+  Name: IntelCpHDCPSvc.exe 
+  Path: C:\Windows\System32\DriverStore\FileRepository\iigd_dch.inf_amd64_a2d86d775f73d911\IntelCpHDCPSvc.exe 
+  CPU Percent: 0.0 
+  Memory Info: rss: 5292032, vms: 1531904 
+  Create Time: 1702650729.9986925 
+  Status: running 
+  Username: NT AUTHORITY\SYSTEM 
+  Connections: [] 
+  Number of Threads: 3 
+---------------------------------------------------------------
+---------------------------------------------------------------
+Process Info for PID 6632: 
+  PID: 6632
+  Name: OfficeClickToRun.exe 
+  Path: C:\Program Files\Common Files\microsoft shared\ClickToRun\OfficeClickToRun.exe 
+  CPU Percent: 0.0 
+  Memory Info: rss: 40140800, vms: 39555072 
+  Create Time: 1702650729.9992607 
+  Status: running 
+  Username: NT AUTHORITY\SYSTEM 
+  Connections: [] 
+  Number of Threads: 21 
+---------------------------------------------------------------
+---------------------------------------------------------------
+Process Info for PID 6640: 
+  PID: 6640
+  Name: chrome.exe 
+  Path: C:\Program Files\Google\Chrome\Application\chrome.exe 
+  CPU Percent: 0.0 
+  Memory Info: rss: 37462016, vms: 36696064 
+  Create Time: 1702731033.5403304 
+  Status: running 
+  Username: DESKTOP-91K1AQU\Hp 
+  Connections: [] 
+  Number of Threads: 25 
+---------------------------------------------------------------
+---------------------------------------------------------------
+Process Info for PID 6648: 
+  PID: 6648
+  Name: svchost.exe 
+  Path: C:\Windows\System32\svchost.exe 
+  CPU Percent: 0.0 
+  Memory Info: rss: 30437376, vms: 20930560 
+  Create Time: 1702650730.0094833 
+  Status: running 
+  Username: NT AUTHORITY\SYSTEM 
+  Connections: [] 
+  Number of Threads: 8 
+---------------------------------------------------------------
+---------------------------------------------------------------
+Process Info for PID 6668: 
+  PID: 6668
+  Name: svchost.exe 
+  Path: C:\Windows\System32\svchost.exe 
+  CPU Percent: 0.0 
+  Memory Info: rss: 46297088, vms: 39735296 
+  Create Time: 1702650730.020064 
+  Status: running 
+  Username: NT AUTHORITY\LOCAL SERVICE 
+  Connections: [] 
+  Number of Threads: 19 
+---------------------------------------------------------------
+---------------------------------------------------------------
+Process Info for PID 6708: 
+  PID: 6708
+  Name: svchost.exe 
+  Path: C:\Windows\System32\svchost.exe 
+  CPU Percent: 0.0 
+  Memory Info: rss: 7049216, vms: 2551808 
+  Create Time: 1702650730.0409958 
+  Status: running 
+  Username: NT AUTHORITY\LOCAL SERVICE 
+  Connections: [] 
+  Number of Threads: 7 
+---------------------------------------------------------------
+---------------------------------------------------------------
+Process Info for PID 6728: 
+  PID: 6728
+  Name: esif_uf.exe 
+  Path: C:\Windows\System32\DriverStore\FileRepository\dptf_cpu.inf_amd64_21306a77b30fd6e0\esif_uf.exe 
+  CPU Percent: 0.0 
+  Memory Info: rss: 4853760, vms: 1896448 
+  Create Time: 1702650730.051927 
+  Status: running 
+  Username: NT AUTHORITY\SYSTEM 
+  Connections: [] 
+  Number of Threads: 3 
+---------------------------------------------------------------
+---------------------------------------------------------------
+Process Info for PID 6748: 
+  PID: 6748
+  Name: ETDService.exe 
+  Path: C:\Windows\System32\ETDService.exe 
+  CPU Percent: 0.0 
+  Memory Info: rss: 4587520, vms: 1466368 
+  Create Time: 1702650730.0609689 
+  Status: running 
+  Username: NT AUTHORITY\SYSTEM 
+  Connections: [] 
+  Number of Threads: 4 
+---------------------------------------------------------------
+---------------------------------------------------------------
+Process Info for PID 6760: 
+  PID: 6760
+  Name: RuntimeBroker.exe 
+  Path: C:\Windows\System32\RuntimeBroker.exe 
+  CPU Percent: 0.0 
+  Memory Info: rss: 10412032, vms: 4300800 
+  Create Time: 1702721693.419739 
+  Status: running 
+  Username: DESKTOP-91K1AQU\Hp 
+  Connections: [] 
+  Number of Threads: 1 
+---------------------------------------------------------------
+---------------------------------------------------------------
+Process Info for PID 6764: 
+  PID: 6764
+  Name: ibtsiva.exe 
+  Path: C:\Windows\System32\ibtsiva.exe 
+  CPU Percent: 0.0 
+  Memory Info: rss: 3874816, vms: 1196032 
+  Create Time: 1702650730.0657532 
+  Status: running 
+  Username: NT AUTHORITY\SYSTEM 
+  Connections: [] 
+  Number of Threads: 1 
+---------------------------------------------------------------
+---------------------------------------------------------------
+Process Info for PID 6808: 
+  PID: 6808
+  Name: OneApp.IGCC.WinService.exe 
+  Path: C:\Windows\System32\DriverStore\FileRepository\igcc_dch.inf_amd64_dc7a0fe3ada1cbf5\OneApp.IGCC.WinService.exe 
+  CPU Percent: 0.0 
+  Memory Info: rss: 12386304, vms: 30461952 
+  Create Time: 1702650730.091268 
+  Status: running 
+  Username: NT AUTHORITY\SYSTEM 
+  Connections: [pconn(fd=-1, family=<AddressFamily.AF_INET6: 23>, type=<SocketKind.SOCK_STREAM: 1>, laddr=addr(ip='::', port=808), raddr=(), status='LISTEN'), pconn(fd=-1, family=<AddressFamily.AF_INET: 2>, type=<SocketKind.SOCK_STREAM: 1>, laddr=addr(ip='0.0.0.0', port=808), raddr=(), status='LISTEN')] 
+  Number of Threads: 6 
+---------------------------------------------------------------
+---------------------------------------------------------------
+Process Info for PID 6844: 
+  PID: 6844
+  Name: pycharm64.exe 
+  Path: C:\Program Files\JetBrains\PyCharm Community Edition 2023.2.2\bin\pycharm64.exe 
+  CPU Percent: 0.0 
+  Memory Info: rss: 23252992, vms: 9256960 
+  Create Time: 1702734314.736128 
+  Status: running 
+  Username: DESKTOP-91K1AQU\Hp 
+  Connections: [] 
+  Number of Threads: 7 
+---------------------------------------------------------------
+---------------------------------------------------------------
+Process Info for PID 6856: 
+  PID: 6856
+  Name: powershell.exe 
+  Path: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe 
+  CPU Percent: 0.0 
+  Memory Info: rss: 56070144, vms: 71507968 
+  Create Time: 1702734346.3612077 
+  Status: running 
+  Username: DESKTOP-91K1AQU\Hp 
+  Connections: [] 
+  Number of Threads: 13 
+---------------------------------------------------------------
+---------------------------------------------------------------
+Process Info for PID 6880: 
+  PID: 6880
+  Name: svchost.exe 
+  Path: C:\Windows\System32\svchost.exe 
+  CPU Percent: 0.0 
+  Memory Info: rss: 9359360, vms: 3088384 
+  Create Time: 1702650730.1727052 
+  Status: running 
+  Username: NT AUTHORITY\SYSTEM 
+  Connections: [pconn(fd=-1, family=<AddressFamily.AF_INET: 2>, type=<SocketKind.SOCK_DGRAM: 2>, laddr=addr(ip='127.0.0.1', port=63222), raddr=(), status='NONE')] 
+  Number of Threads: 5 
+---------------------------------------------------------------
+---------------------------------------------------------------
+Process Info for PID 6904: 
+  PID: 6904
+  Name: taskhostw.exe 
+  Path: C:\Windows\System32\taskhostw.exe 
+  CPU Percent: 0.0 
+  Memory Info: rss: 9789440, vms: 2248704 
+  Create Time: 1702723570.3010068 
+  Status: running 
+  Username: DESKTOP-91K1AQU\Hp 
+  Connections: [] 
+  Number of Threads: 2 
+---------------------------------------------------------------
+---------------------------------------------------------------
+Process Info for PID 6936: 
+  PID: 6936
+  Name: SgrmBroker.exe 
+  Path: C:\Windows\System32\SgrmBroker.exe 
+  CPU Percent: 0.0 
+  Memory Info: rss: 6787072, vms: 5746688 
+  Create Time: 1702650852.2850559 
+  Status: running 
+  Username: NT AUTHORITY\SYSTEM 
+  Connections: [] 
+  Number of Threads: 6 
+---------------------------------------------------------------
+---------------------------------------------------------------
+Process Info for PID 7012: 
+  PID: 7012
+  Name: svchost.exe 
+  Path: C:\Windows\System32\svchost.exe 
+  CPU Percent: 0.0 
+  Memory Info: rss: 17465344, vms: 5173248 
+  Create Time: 1702650730.4424329 
+  Status: running 
+  Username: NT AUTHORITY\SYSTEM 
+  Connections: [pconn(fd=-1, family=<AddressFamily.AF_INET: 2>, type=<SocketKind.SOCK_STREAM: 1>, laddr=addr(ip='192.168.100.182', port=61443), raddr=addr(ip='20.199.120.182', port=443), status='ESTABLISHED')] 
+  Number of Threads: 7 
+---------------------------------------------------------------
+---------------------------------------------------------------
+Process Info for PID 7044: 
+  PID: 7044
+  Name: LMS.exe 
+  Path: C:\Windows\System32\DriverStore\FileRepository\lms.inf_amd64_3ef70b9d5cc0699f\LMS.exe 
+  CPU Percent: 0.0 
+  Memory Info: rss: 9613312, vms: 4014080 
+  Create Time: 1702650730.3306148 
+  Status: running 
+  Username: NT AUTHORITY\SYSTEM 
+  Connections: [] 
+  Number of Threads: 4 
+---------------------------------------------------------------
+---------------------------------------------------------------
+Process Info for PID 7052: 
+  PID: 7052
+  Name: svchost.exe 
+  Path: C:\Windows\System32\svchost.exe 
+  CPU Percent: 0.0 
+  Memory Info: rss: 4493312, vms: 1613824 
+  Create Time: 1702650730.3336816 
+  Status: running 
+  Username: NT AUTHORITY\LOCAL SERVICE 
+  Connections: [] 
+  Number of Threads: 1 
+---------------------------------------------------------------
+---------------------------------------------------------------
+Process Info for PID 7096: 
+  PID: 7096
+  Name: RstMwService.exe 
+  Path: C:\Windows\System32\DriverStore\FileRepository\iastorac.inf_amd64_ba273d0ffb93e225\RstMwService.exe 
+  CPU Percent: 0.0 
+  Memory Info: rss: 4423680, vms: 1622016 
+  Create Time: 1702650730.357811 
+  Status: running 
+  Username: NT AUTHORITY\SYSTEM 
+  Connections: [] 
+  Number of Threads: 6 
+---------------------------------------------------------------
+---------------------------------------------------------------
+Process Info for PID 7132: 
+  PID: 7132
+  Name: RtkAudUService64.exe 
+  Path: C:\Windows\System32\DriverStore\FileRepository\realtekservice.inf_amd64_d87c47469b47c3f9\RtkAudUService64.exe 
+  CPU Percent: 0.0 
+  Memory Info: rss: 8843264, vms: 4100096 
+  Create Time: 1702650730.3958735 
+  Status: running 
+  Username: NT AUTHORITY\SYSTEM 
+  Connections: [] 
+  Number of Threads: 11 
+---------------------------------------------------------------
+---------------------------------------------------------------
+Process Info for PID 7212: 
+  PID: 7212
+  Name: svchost.exe 
+  Path: C:\Windows\System32\svchost.exe 
+  CPU Percent: 0.0 
+  Memory Info: rss: 4792320, vms: 2375680 
+  Create Time: 1702650730.459692 
+  Status: running 
+  Username: NT AUTHORITY\NETWORK SERVICE 
+  Connections: [] 
+  Number of Threads: 13 
+---------------------------------------------------------------
+---------------------------------------------------------------
+Process Info for PID 7220: 
+  PID: 7220
+  Name: jhi_service.exe 
+  Path: C:\Windows\System32\DriverStore\FileRepository\dal.inf_amd64_0b214be229a13e84\jhi_service.exe 
+  CPU Percent: 0.0 
+  Memory Info: rss: 3211264, vms: 1114112 
+  Create Time: 1702650730.4623616 
+  Status: running 
+  Username: NT AUTHORITY\SYSTEM 
+  Connections: [pconn(fd=-1, family=<AddressFamily.AF_INET6: 23>, type=<SocketKind.SOCK_STREAM: 1>, laddr=addr(ip='::1', port=49669), raddr=(), status='LISTEN')] 
+  Number of Threads: 2 
+---------------------------------------------------------------
+---------------------------------------------------------------
+Process Info for PID 7228: 
+  PID: 7228
+  Name: CptService.exe 
+  Path: C:\Program Files\Common Files\Zoom\Support\CptService.exe 
+  CPU Percent: 0.0 
+  Memory Info: rss: 3608576, vms: 1253376 
+  Create Time: 1702650730.4768856 
+  Status: running 
+  Username: NT AUTHORITY\SYSTEM 
+  Connections: [] 
+  Number of Threads: 3 
+---------------------------------------------------------------
+---------------------------------------------------------------
+Process Info for PID 7500: 
+  PID: 7500
+  Name: SearchIndexer.exe 
+  Path: C:\Windows\System32\SearchIndexer.exe 
+  CPU Percent: 0.0 
+  Memory Info: rss: 50483200, vms: 47157248 
+  Create Time: 1702650731.25536 
+  Status: running 
+  Username: NT AUTHORITY\SYSTEM 
+  Connections: [] 
+  Number of Threads: 16 
+---------------------------------------------------------------
+---------------------------------------------------------------
+Process Info for PID 7528: 
+  PID: 7528
+  Name: svchost.exe 
+  Path: C:\Windows\System32\svchost.exe 
+  CPU Percent: 0.0 
+  Memory Info: rss: 3756032, vms: 1286144 
+  Create Time: 1702650730.7173445 
+  Status: running 
+  Username: NT AUTHORITY\LOCAL SERVICE 
+  Connections: [] 
+  Number of Threads: 2 
+---------------------------------------------------------------
+---------------------------------------------------------------
+Process Info for PID 7808: 
+  PID: 7808
+  Name: QHWatchdog.exe 
+  Path: C:\Program Files (x86)\360\Total Security\safemon\QHWatchdog.exe 
+  CPU Percent: 0.0 
+  Memory Info: rss: 4915200, vms: 1077248 
+  Create Time: 1702650733.300032 
+  Status: running 
+  Username: NT AUTHORITY\SYSTEM 
+  Connections: [] 
+  Number of Threads: 1 
+---------------------------------------------------------------
+---------------------------------------------------------------
+Process Info for PID 7820: 
+  PID: 7820
+  Name: ETDCtrl.exe 
+  Path: C:\Windows\System32\ETDCtrl.exe 
+  CPU Percent: 0.0 
+  Memory Info: rss: 21004288, vms: 7462912 
+  Create Time: 1702721590.3566024 
+  Status: running 
+  Username: DESKTOP-91K1AQU\Hp 
+  Connections: [] 
+  Number of Threads: 11 
+---------------------------------------------------------------
+---------------------------------------------------------------
+Process Info for PID 7956: 
+  PID: 7956
+  Name: svchost.exe 
+  Path: C:\Windows\System32\svchost.exe 
+  CPU Percent: 0.0 
+  Memory Info: rss: 10702848, vms: 3792896 
+  Create Time: 1702650730.9745135 
+  Status: running 
+  Username: NT AUTHORITY\SYSTEM 
+  Connections: [] 
+  Number of Threads: 12 
+---------------------------------------------------------------
+---------------------------------------------------------------
+Process Info for PID 8496: 
+  PID: 8496
+  Name: aswEngSrv.exe 
+  Path: C:\Program Files\Avast Software\Avast\aswEngSrv.exe 
+  CPU Percent: 0.0 
+  Memory Info: rss: 63913984, vms: 144097280 
+  Create Time: 1702650732.099045 
+  Status: running 
+  Username: NT AUTHORITY\LOCAL SERVICE 
+  Connections: [] 
+  Number of Threads: 27 
+---------------------------------------------------------------
+---------------------------------------------------------------
+Process Info for PID 8748: 
+  PID: 8748
+  Name: dwm.exe 
+  Path: C:\Windows\System32\dwm.exe 
+  CPU Percent: 0.0 
+  Memory Info: rss: 42004480, vms: 100122624 
+  Create Time: 1702672088.527743 
+  Status: running 
+  Username: Window Manager\DWM-2 
+  Connections: [] 
+  Number of Threads: 13 
+---------------------------------------------------------------
+---------------------------------------------------------------
+Process Info for PID 8768: 
+  PID: 8768
+  Name: TextInputHost.exe 
+  Path: C:\Windows\SystemApps\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\TextInputHost.exe 
+  CPU Percent: 0.0 
+  Memory Info: rss: 37257216, vms: 13352960 
+  Create Time: 1702721604.5016344 
+  Status: running 
+  Username: DESKTOP-91K1AQU\Hp 
+  Connections: [] 
+  Number of Threads: 9 
+---------------------------------------------------------------
+---------------------------------------------------------------
+Process Info for PID 8876: 
+  PID: 8876
+  Name: svchost.exe 
+  Path: C:\Windows\System32\svchost.exe 
+  CPU Percent: 0.0 
+  Memory Info: rss: 7868416, vms: 3014656 
+  Create Time: 1702650733.4993484 
+  Status: running 
+  Username: NT AUTHORITY\LOCAL SERVICE 
+  Connections: [pconn(fd=-1, family=<AddressFamily.AF_INET6: 23>, type=<SocketKind.SOCK_DGRAM: 2>, laddr=addr(ip='::', port=3702), raddr=(), status='NONE'), pconn(fd=-1, family=<AddressFamily.AF_INET: 2>, type=<SocketKind.SOCK_DGRAM: 2>, laddr=addr(ip='0.0.0.0', port=63510), raddr=(), status='NONE'), pconn(fd=-1, family=<AddressFamily.AF_INET6: 23>, type=<SocketKind.SOCK_DGRAM: 2>, laddr=addr(ip='::', port=63511), raddr=(), status='NONE'), pconn(fd=-1, family=<AddressFamily.AF_INET: 2>, type=<SocketKind.SOCK_DGRAM: 2>, laddr=addr(ip='0.0.0.0', port=3702), raddr=(), status='NONE')] 
+  Number of Threads: 4 
+---------------------------------------------------------------
+---------------------------------------------------------------
+Process Info for PID 8920: 
+  PID: 8920
+  Name: svchost.exe 
+  Path: C:\Windows\System32\svchost.exe 
+  CPU Percent: 0.0 
+  Memory Info: rss: 7868416, vms: 1728512 
+  Create Time: 1702738871.4965775 
+  Status: running 
+  Username: NT AUTHORITY\SYSTEM 
+  Connections: [] 
+  Number of Threads: 3 
+---------------------------------------------------------------
+---------------------------------------------------------------
+Process Info for PID 9184: 
+  PID: 9184
+  Name: chrome.exe 
+  Path: C:\Program Files\Google\Chrome\Application\chrome.exe 
+  CPU Percent: 0.0 
+  Memory Info: rss: 353435648, vms: 365756416 
+  Create Time: 1702721910.698347 
+  Status: running 
+  Username: DESKTOP-91K1AQU\Hp 
+  Connections: [] 
+  Number of Threads: 26 
+---------------------------------------------------------------
+---------------------------------------------------------------
+Process Info for PID 9456: 
+  PID: 9456
+  Name: chrome.exe 
+  Path: C:\Program Files\Google\Chrome\Application\chrome.exe 
+  CPU Percent: 0.0 
+  Memory Info: rss: 191447040, vms: 348991488 
+  Create Time: 1702721605.736878 
+  Status: running 
+  Username: DESKTOP-91K1AQU\Hp 
+  Connections: [] 
+  Number of Threads: 27 
+---------------------------------------------------------------
+---------------------------------------------------------------
+Process Info for PID 9472: 
+  PID: 9472
+  Name: LockApp.exe 
+  Path: C:\Windows\SystemApps\Microsoft.LockApp_cw5n1h2txyewy\LockApp.exe 
+  CPU Percent: 0.0 
+  Memory Info: rss: 25268224, vms: 14991360 
+  Create Time: 1702723570.4250803 
+  Status: stopped 
+  Username: DESKTOP-91K1AQU\Hp 
+  Connections: [] 
+  Number of Threads: 15 
+---------------------------------------------------------------
+---------------------------------------------------------------
+Process Info for PID 9580: 
+  PID: 9580
+  Name: sihost.exe 
+  Path: C:\Windows\System32\sihost.exe 
+  CPU Percent: 0.0 
+  Memory Info: rss: 30097408, vms: 7651328 
+  Create Time: 1702721590.4660964 
+  Status: running 
+  Username: DESKTOP-91K1AQU\Hp 
+  Connections: [] 
+  Number of Threads: 9 
+---------------------------------------------------------------
+---------------------------------------------------------------
+Process Info for PID 9960: 
+  PID: 9960
+  Name: svchost.exe 
+  Path: C:\Windows\System32\svchost.exe 
+  CPU Percent: 0.0 
+  Memory Info: rss: 21704704, vms: 5771264 
+  Create Time: 1702650734.220178 
+  Status: running 
+  Username: NT AUTHORITY\SYSTEM 
+  Connections: [] 
+  Number of Threads: 7 
+---------------------------------------------------------------
+---------------------------------------------------------------
+Process Info for PID 10232: 
+  PID: 10232
+  Name: chrome.exe 
+  Path: C:\Program Files\Google\Chrome\Application\chrome.exe 
+  CPU Percent: 0.0 
+  Memory Info: rss: 172195840, vms: 163057664 
+  Create Time: 1702721601.1409137 
+  Status: running 
+  Username: DESKTOP-91K1AQU\Hp 
+  Connections: [pconn(fd=-1, family=<AddressFamily.AF_INET6: 23>, type=<SocketKind.SOCK_DGRAM: 2>, laddr=addr(ip='::', port=5353), raddr=(), status='NONE'), pconn(fd=-1, family=<AddressFamily.AF_INET: 2>, type=<SocketKind.SOCK_DGRAM: 2>, laddr=addr(ip='0.0.0.0', port=5353), raddr=(), status='NONE')] 
+  Number of Threads: 55 
+---------------------------------------------------------------
+---------------------------------------------------------------
+Process Info for PID 10412: 
+  PID: 10412
+  Name: explorer.exe 
+  Path: C:\Windows\explorer.exe 
+  CPU Percent: 0.0 
+  Memory Info: rss: 186691584, vms: 185954304 
+  Create Time: 1702721591.3303893 
+  Status: running 
+  Username: DESKTOP-91K1AQU\Hp 
+  Connections: [] 
+  Number of Threads: 72 
+---------------------------------------------------------------
+---------------------------------------------------------------
+Process Info for PID 10448: 
+  PID: 10448
+  Name: csrss.exe 
+  Path: C:\Windows\System32\csrss.exe 
+  CPU Percent: 0.0 
+  Memory Info: rss: 5906432, vms: 2863104 
+  Create Time: 1702672088.292124 
+  Status: running 
+  Username: NT AUTHORITY\SYSTEM 
+  Connections: [] 
+  Number of Threads: 14 
+---------------------------------------------------------------
+---------------------------------------------------------------
+Process Info for PID 10568: 
+  PID: 10568
+  Name: svchost.exe 
+  Path: C:\Windows\System32\svchost.exe 
+  CPU Percent: 0.0 
+  Memory Info: rss: 9187328, vms: 3612672 
+  Create Time: 1702650734.866556 
+  Status: running 
+  Username: NT AUTHORITY\LOCAL SERVICE 
+  Connections: [] 
+  Number of Threads: 8 
+---------------------------------------------------------------
+---------------------------------------------------------------
+Process Info for PID 10692: 
+  PID: 10692
+  Name: aswidsagent.exe 
+  Path: C:\Program Files\Avast Software\Avast\aswidsagent.exe 
+  CPU Percent: 0.0 
+  Memory Info: rss: 116977664, vms: 121061376 
+  Create Time: 1702650735.054688 
+  Status: running 
+  Username: NT AUTHORITY\SYSTEM 
+  Connections: [] 
+  Number of Threads: 24 
+---------------------------------------------------------------
+---------------------------------------------------------------
+Process Info for PID 10752: 
+  PID: 10752
+  Name: chrome.exe 
+  Path: C:\Program Files\Google\Chrome\Application\chrome.exe 
+  CPU Percent: 0.0 
+  Memory Info: rss: 35229696, vms: 34369536 
+  Create Time: 1702721861.398402 
+  Status: running 
+  Username: DESKTOP-91K1AQU\Hp 
+  Connections: [] 
+  Number of Threads: 25 
+---------------------------------------------------------------
+---------------------------------------------------------------
+Process Info for PID 10756: 
+  PID: 10756
+  Name: chrome.exe 
+  Path: C:\Program Files\Google\Chrome\Application\chrome.exe 
+  CPU Percent: 0.0 
+  Memory Info: rss: 46702592, vms: 42725376 
+  Create Time: 1702721926.647077 
+  Status: running 
+  Username: DESKTOP-91K1AQU\Hp 
+  Connections: [] 
+  Number of Threads: 24 
+---------------------------------------------------------------
+---------------------------------------------------------------
+Process Info for PID 10760: 
+  PID: 10760
+  Name: chrome.exe 
+  Path: C:\Program Files\Google\Chrome\Application\chrome.exe 
+  CPU Percent: 0.0 
+  Memory Info: rss: 23977984, vms: 19263488 
+  Create Time: 1702721601.980524 
+  Status: running 
+  Username: DESKTOP-91K1AQU\Hp 
+  Connections: [] 
+  Number of Threads: 10 
+---------------------------------------------------------------
+---------------------------------------------------------------
+Process Info for PID 10816: 
+  PID: 10816
+  Name: chrome.exe 
+  Path: C:\Program Files\Google\Chrome\Application\chrome.exe 
+  CPU Percent: 0.0 
+  Memory Info: rss: 106344448, vms: 281059328 
+  Create Time: 1702721601.8954544 
+  Status: running 
+  Username: DESKTOP-91K1AQU\Hp 
+  Connections: [] 
+  Number of Threads: 18 
+---------------------------------------------------------------
+---------------------------------------------------------------
+Process Info for PID 10908: 
+  PID: 10908
+  Name: chrome.exe 
+  Path: C:\Program Files\Google\Chrome\Application\chrome.exe 
+  CPU Percent: 0.0 
+  Memory Info: rss: 24219648, vms: 16818176 
+  Create Time: 1702721607.5573435 
+  Status: running 
+  Username: DESKTOP-91K1AQU\Hp 
+  Connections: [] 
+  Number of Threads: 9 
+---------------------------------------------------------------
+---------------------------------------------------------------
+Process Info for PID 10936: 
+  PID: 10936
+  Name: QHSafeTray.exe 
+  Path: C:\Program Files (x86)\360\Total Security\safemon\QHSafeTray.exe 
+  CPU Percent: 0.0 
+  Memory Info: rss: 43343872, vms: 36442112 
+  Create Time: 1702721609.9246645 
+  Status: running 
+  Username: DESKTOP-91K1AQU\Hp 
+  Connections: [pconn(fd=-1, family=<AddressFamily.AF_INET: 2>, type=<SocketKind.SOCK_DGRAM: 2>, laddr=addr(ip='0.0.0.0', port=59074), raddr=(), status='NONE'), pconn(fd=-1, family=<AddressFamily.AF_INET: 2>, type=<SocketKind.SOCK_DGRAM: 2>, laddr=addr(ip='0.0.0.0', port=3600), raddr=(), status='NONE'), pconn(fd=-1, family=<AddressFamily.AF_INET: 2>, type=<SocketKind.SOCK_DGRAM: 2>, laddr=addr(ip='0.0.0.0', port=50627), raddr=(), status='NONE'), pconn(fd=-1, family=<AddressFamily.AF_INET: 2>, type=<SocketKind.SOCK_STREAM: 1>, laddr=addr(ip='192.168.100.182', port=61486), raddr=addr(ip='54.76.166.0', port=80), status='ESTABLISHED')] 
+  Number of Threads: 60 
+---------------------------------------------------------------
+---------------------------------------------------------------
+Process Info for PID 10944: 
+  PID: 10944
+  Name: ctfmon.exe 
+  Path: C:\Windows\System32\ctfmon.exe 
+  CPU Percent: 0.0 
+  Memory Info: rss: 21540864, vms: 5074944 
+  Create Time: 1702721594.7158191 
+  Status: running 
+  Username: DESKTOP-91K1AQU\Hp 
+  Connections: [] 
+  Number of Threads: 11 
+---------------------------------------------------------------
+---------------------------------------------------------------
+Process Info for PID 11148: 
+  PID: 11148
+  Name: svchost.exe 
+  Path: C:\Windows\System32\svchost.exe 
+  CPU Percent: 0.0 
+  Memory Info: rss: 7872512, vms: 1978368 
+  Create Time: 1702721592.8373358 
+  Status: running 
+  Username: NT AUTHORITY\LOCAL SERVICE 
+  Connections: [] 
+  Number of Threads: 2 
+---------------------------------------------------------------
+---------------------------------------------------------------
+Process Info for PID 11188: 
+  PID: 11188
+  Name: svchost.exe 
+  Path: C:\Windows\System32\svchost.exe 
+  CPU Percent: 0.0 
+  Memory Info: rss: 21786624, vms: 8392704 
+  Create Time: 1702721590.5132344 
+  Status: running 
+  Username: DESKTOP-91K1AQU\Hp 
+  Connections: [] 
+  Number of Threads: 8 
+---------------------------------------------------------------
+---------------------------------------------------------------
+Process Info for PID 11476: 
+  PID: 11476
+  Name: svchost.exe 
+  Path: C:\Windows\System32\svchost.exe 
+  CPU Percent: 0.0 
+  Memory Info: rss: 23404544, vms: 4263936 
+  Create Time: 1702721593.1225767 
+  Status: running 
+  Username: DESKTOP-91K1AQU\Hp 
+  Connections: [] 
+  Number of Threads: 7 
+---------------------------------------------------------------
+---------------------------------------------------------------
+Process Info for PID 11656: 
+  PID: 11656
+  Name: AvastUI.exe 
+  Path: C:\Program Files\Avast Software\Avast\AvastUI.exe 
+  CPU Percent: 0.0 
+  Memory Info: rss: 4919296, vms: 16596992 
+  Create Time: 1702721645.4954636 
+  Status: running 
+  Username: DESKTOP-91K1AQU\Hp 
+  Connections: [] 
+  Number of Threads: 8 
+---------------------------------------------------------------
+---------------------------------------------------------------
+Process Info for PID 11748: 
+  PID: 11748
+  Name: svchost.exe 
+  Path: C:\Windows\System32\svchost.exe 
+  CPU Percent: 0.0 
+  Memory Info: rss: 13783040, vms: 3469312 
+  Create Time: 1702650741.1316624 
+  Status: running 
+  Username: NT AUTHORITY\SYSTEM 
+  Connections: [] 
+  Number of Threads: 4 
+---------------------------------------------------------------
+---------------------------------------------------------------
+Process Info for PID 12016: 
+  PID: 12016
+  Name: chrome.exe 
+  Path: C:\Program Files\Google\Chrome\Application\chrome.exe 
+  CPU Percent: 0.0 
+  Memory Info: rss: 178626560, vms: 218812416 
+  Create Time: 1702721861.3287692 
+  Status: running 
+  Username: DESKTOP-91K1AQU\Hp 
+  Connections: [] 
+  Number of Threads: 30 
+---------------------------------------------------------------
+---------------------------------------------------------------
+Process Info for PID 12024: 
+  PID: 12024
+  Name: StartMenuExperienceHost.exe 
+  Path: C:\Windows\SystemApps\Microsoft.Windows.StartMenuExperienceHost_cw5n1h2txyewy\StartMenuExperienceHost.exe 
+  CPU Percent: 0.0 
+  Memory Info: rss: 31821824, vms: 26443776 
+  Create Time: 1702721595.018992 
+  Status: running 
+  Username: DESKTOP-91K1AQU\Hp 
+  Connections: [] 
+  Number of Threads: 6 
+---------------------------------------------------------------
+---------------------------------------------------------------
+Process Info for PID 12084: 
+  PID: 12084
+  Name: AvastUI.exe 
+  Path: C:\Program Files\Avast Software\Avast\AvastUI.exe 
+  CPU Percent: 0.0 
+  Memory Info: rss: 10407936, vms: 18350080 
+  Create Time: 1702721645.5274236 
+  Status: running 
+  Username: DESKTOP-91K1AQU\Hp 
+  Connections: [pconn(fd=-1, family=<AddressFamily.AF_INET: 2>, type=<SocketKind.SOCK_STREAM: 1>, laddr=addr(ip='192.168.100.182', port=61414), raddr=addr(ip='34.111.24.1', port=443), status='ESTABLISHED')] 
+  Number of Threads: 9 
+---------------------------------------------------------------
+---------------------------------------------------------------
+Process Info for PID 12336: 
+  PID: 12336
+  Name: igfxEMN.exe 
+  Path: C:\Windows\System32\DriverStore\FileRepository\cui_dch.inf_amd64_dc2a57d591329a30\igfxEMN.exe 
+  CPU Percent: 0.0 
+  Memory Info: rss: 23539712, vms: 7860224 
+  Create Time: 1702721590.5469337 
+  Status: running 
+  Username: DESKTOP-91K1AQU\Hp 
+  Connections: [] 
+  Number of Threads: 8 
+---------------------------------------------------------------
+---------------------------------------------------------------
+Process Info for PID 12436: 
+  PID: 12436
+  Name: chrome.exe 
+  Path: C:\Program Files\Google\Chrome\Application\chrome.exe 
+  CPU Percent: 0.0 
+  Memory Info: rss: 112717824, vms: 72286208 
+  Create Time: 1702734409.446617 
+  Status: running 
+  Username: DESKTOP-91K1AQU\Hp 
+  Connections: [] 
+  Number of Threads: 25 
+---------------------------------------------------------------
+---------------------------------------------------------------
+Process Info for PID 12444: 
+  PID: 12444
+  Name: RuntimeBroker.exe 
+  Path: C:\Windows\System32\RuntimeBroker.exe 
+  CPU Percent: 0.0 
+  Memory Info: rss: 47284224, vms: 16236544 
+  Create Time: 1702721596.5842304 
+  Status: running 
+  Username: DESKTOP-91K1AQU\Hp 
+  Connections: [] 
+  Number of Threads: 17 
+---------------------------------------------------------------
+---------------------------------------------------------------
+Process Info for PID 12672: 
+  PID: 12672
+  Name: ETDCtrlHelper.exe 
+  Path: C:\Windows\System32\ETDCtrlHelper.exe 
+  CPU Percent: 0.0 
+  Memory Info: rss: 8622080, vms: 2338816 
+  Create Time: 1702672099.9194787 
+  Status: running 
+  Username: NT AUTHORITY\SYSTEM 
+  Connections: [] 
+  Number of Threads: 1 
+---------------------------------------------------------------
+---------------------------------------------------------------
+Process Info for PID 12888: 
+  PID: 12888
+  Name: chrome.exe 
+  Path: C:\Program Files\Google\Chrome\Application\chrome.exe 
+  CPU Percent: 0.0 
+  Memory Info: rss: 33046528, vms: 26148864 
+  Create Time: 1702738835.720583 
+  Status: running 
+  Username: DESKTOP-91K1AQU\Hp 
+  Connections: [] 
+  Number of Threads: 13 
+---------------------------------------------------------------
+---------------------------------------------------------------
+Process Info for PID 12948: 
+  PID: 12948
+  Name: AvastUI.exe 
+  Path: C:\Program Files\Avast Software\Avast\AvastUI.exe 
+  CPU Percent: 0.0 
+  Memory Info: rss: 9842688, vms: 23605248 
+  Create Time: 1702721644.979869 
+  Status: running 
+  Username: DESKTOP-91K1AQU\Hp 
+  Connections: [] 
+  Number of Threads: 9 
+---------------------------------------------------------------
+---------------------------------------------------------------
+Process Info for PID 12988: 
+  PID: 12988
+  Name: UserOOBEBroker.exe 
+  Path: C:\Windows\System32\oobe\UserOOBEBroker.exe 
+  CPU Percent: 0.0 
+  Memory Info: rss: 9814016, vms: 2412544 
+  Create Time: 1702722198.2402964 
+  Status: running 
+  Username: DESKTOP-91K1AQU\Hp 
+  Connections: [] 
+  Number of Threads: 1 
+---------------------------------------------------------------
+---------------------------------------------------------------
+Process Info for PID 13124: 
+  PID: 13124
+  Name: taskhostw.exe 
+  Path: C:\Windows\System32\taskhostw.exe 
+  CPU Percent: 0.0 
+  Memory Info: rss: 17330176, vms: 7118848 
+  Create Time: 1702721590.7361417 
+  Status: running 
+  Username: DESKTOP-91K1AQU\Hp 
+  Connections: [] 
+  Number of Threads: 8 
+---------------------------------------------------------------
+---------------------------------------------------------------
+Process Info for PID 13272: 
+  PID: 13272
+  Name: RuntimeBroker.exe 
+  Path: C:\Windows\System32\RuntimeBroker.exe 
+  CPU Percent: 0.0 
+  Memory Info: rss: 35332096, vms: 10481664 
+  Create Time: 1702723571.2841218 
+  Status: running 
+  Username: DESKTOP-91K1AQU\Hp 
+  Connections: [] 
+  Number of Threads: 10 
+---------------------------------------------------------------
+---------------------------------------------------------------
+Process Info for PID 13288: 
+  PID: 13288
+  Name: python.exe 
+  Path: C:\Users\Hp\Desktop\Anul III\Python-2023\Proiect\Scripts\python.exe 
+  CPU Percent: 0.0 
+  Memory Info: rss: 3596288, vms: 917504 
+  Create Time: 1702739069.410037 
+  Status: running 
+  Username: DESKTOP-91K1AQU\Hp 
+  Connections: [] 
+  Number of Threads: 3 
+---------------------------------------------------------------
+---------------------------------------------------------------
+Process Info for PID 13996: 
+  PID: 13996
+  Name: conhost.exe 
+  Path: C:\Windows\System32\conhost.exe 
+  CPU Percent: 0.0 
+  Memory Info: rss: 6033408, vms: 6664192 
+  Create Time: 1702734314.6617823 
+  Status: running 
+  Username: DESKTOP-91K1AQU\Hp 
+  Connections: [] 
+  Number of Threads: 2 
+---------------------------------------------------------------
+---------------------------------------------------------------
+Process Info for PID 14148: 
+  PID: 14148
+  Name: chrome.exe 
+  Path: C:\Program Files\Google\Chrome\Application\chrome.exe 
+  CPU Percent: 0.0 
+  Memory Info: rss: 35917824, vms: 131891200 
+  Create Time: 1702721817.753311 
+  Status: running 
+  Username: DESKTOP-91K1AQU\Hp 
+  Connections: [] 
+  Number of Threads: 27 
+---------------------------------------------------------------
+---------------------------------------------------------------
+Process Info for PID 14196: 
+  PID: 14196
+  Name: python.exe 
+  Path: C:\Users\Hp\Desktop\Anul III\Python-2023\Proiect\Scripts\python.exe 
+  CPU Percent: 0.0 
+  Memory Info: rss: 3272704, vms: 872448 
+  Create Time: 1702734314.646174 
+  Status: running 
+  Username: DESKTOP-91K1AQU\Hp 
+  Connections: [] 
+  Number of Threads: 1 
+---------------------------------------------------------------
+---------------------------------------------------------------
+Process Info for PID 14256: 
+  PID: 14256
+  Name: chrome.exe 
+  Path: C:\Program Files\Google\Chrome\Application\chrome.exe 
+  CPU Percent: 0.0 
+  Memory Info: rss: 37257216, vms: 40751104 
+  Create Time: 1702731020.0319452 
+  Status: running 
+  Username: DESKTOP-91K1AQU\Hp 
+  Connections: [] 
+  Number of Threads: 25 
+---------------------------------------------------------------
+---------------------------------------------------------------
+Process Info for PID 14824: 
+  PID: 14824
+  Name: python.exe 
+  Path: C:\Users\Hp\AppData\Local\Programs\Python\Python312\python.exe 
+  CPU Percent: 0.0 
+  Memory Info: rss: 14692352, vms: 25509888 
+  Create Time: 1702734314.703925 
+  Status: running 
+  Username: DESKTOP-91K1AQU\Hp 
+  Connections: [pconn(fd=-1, family=<AddressFamily.AF_INET: 2>, type=<SocketKind.SOCK_STREAM: 1>, laddr=addr(ip='127.0.0.1', port=63944), raddr=addr(ip='127.0.0.1', port=63940), status='ESTABLISHED')] 
+  Number of Threads: 3 
+---------------------------------------------------------------
+---------------------------------------------------------------
+Process Info for PID 14996: 
+  PID: 14996
+  Name: Taskmgr.exe 
+  Path: C:\Windows\System32\Taskmgr.exe 
+  CPU Percent: 0.0 
+  Memory Info: rss: 59170816, vms: 27557888 
+  Create Time: 1702734644.1047957 
+  Status: running 
+  Username: DESKTOP-91K1AQU\Hp 
+  Connections: [] 
+  Number of Threads: 15 
+---------------------------------------------------------------
+---------------------------------------------------------------
+Process Info for PID 15072: 
+  PID: 15072
+  Name: RtkAudUService64.exe 
+  Path: C:\Windows\System32\DriverStore\FileRepository\realtekservice.inf_amd64_d87c47469b47c3f9\RtkAudUService64.exe 
+  CPU Percent: 0.0 
+  Memory Info: rss: 2371584, vms: 4108288 
+  Create Time: 1702721621.1841104 
+  Status: running 
+  Username: DESKTOP-91K1AQU\Hp 
+  Connections: [] 
+  Number of Threads: 10 
+---------------------------------------------------------------
+---------------------------------------------------------------
+Process Info for PID 15196: 
+  PID: 15196
+  Name: svchost.exe 
+  Path: C:\Windows\System32\svchost.exe 
+  CPU Percent: 0.0 
+  Memory Info: rss: 5763072, vms: 1286144 
+  Create Time: 1702723570.4259076 
+  Status: running 
+  Username: NT AUTHORITY\LOCAL SERVICE 
+  Connections: [] 
+  Number of Threads: 3 
+---------------------------------------------------------------
+---------------------------------------------------------------
+Process Info for PID 15204: 
+  PID: 15204
+  Name: ApplicationFrameHost.exe 
+  Path: C:\Windows\System32\ApplicationFrameHost.exe 
+  CPU Percent: 0.0 
+  Memory Info: rss: 35352576, vms: 16384000 
+  Create Time: 1702721692.174596 
+  Status: running 
+  Username: DESKTOP-91K1AQU\Hp 
+  Connections: [] 
+  Number of Threads: 3 
+---------------------------------------------------------------
+---------------------------------------------------------------
+Process Info for PID 15544: 
+  PID: 15544
+  Name: pycharm64.exe 
+  Path: C:\Program Files\JetBrains\PyCharm Community Edition 2023.2.2\bin\pycharm64.exe 
+  CPU Percent: 0.0 
+  Memory Info: rss: 2152660992, vms: 2259644416 
+  Create Time: 1702734280.884947 
+  Status: running 
+  Username: DESKTOP-91K1AQU\Hp 
+  Connections: [pconn(fd=-1, family=<AddressFamily.AF_INET: 2>, type=<SocketKind.SOCK_STREAM: 1>, laddr=addr(ip='127.0.0.1', port=63342), raddr=(), status='LISTEN'), pconn(fd=-1, family=<AddressFamily.AF_INET: 2>, type=<SocketKind.SOCK_STREAM: 1>, laddr=addr(ip='127.0.0.1', port=63940), raddr=addr(ip='127.0.0.1', port=63944), status='ESTABLISHED'), pconn(fd=-1, family=<AddressFamily.AF_INET: 2>, type=<SocketKind.SOCK_STREAM: 1>, laddr=addr(ip='127.0.0.1', port=63940), raddr=(), status='LISTEN')] 
+  Number of Threads: 115 
+---------------------------------------------------------------
+---------------------------------------------------------------
+Process Info for PID 15564: 
+  PID: 15564
+  Name: CalculatorApp.exe 
+  Path: C:\Program Files\WindowsApps\Microsoft.WindowsCalculator_11.2307.4.0_x64__8wekyb3d8bbwe\CalculatorApp.exe 
+  CPU Percent: 0.0 
+  Memory Info: rss: 1536000, vms: 27369472 
+  Create Time: 1702734703.6207674 
+  Status: stopped 
+  Username: DESKTOP-91K1AQU\Hp 
+  Connections: [] 
+  Number of Threads: 22 
+---------------------------------------------------------------
+---------------------------------------------------------------
+Process Info for PID 15696: 
+  PID: 15696
+  Name: fsnotifier.exe 
+  Path: C:\Program Files\JetBrains\PyCharm Community Edition 2023.2.2\bin\fsnotifier.exe 
+  CPU Percent: 0.0 
+  Memory Info: rss: 2686976, vms: 643072 
+  Create Time: 1702734283.3546476 
+  Status: running 
+  Username: DESKTOP-91K1AQU\Hp 
+  Connections: [] 
+  Number of Threads: 2 
+---------------------------------------------------------------
+---------------------------------------------------------------
+Process Info for PID 15860: 
+  PID: 15860
+  Name: chrome.exe 
+  Path: C:\Program Files\Google\Chrome\Application\chrome.exe 
+  CPU Percent: 0.0 
+  Memory Info: rss: 141717504, vms: 139104256 
+  Create Time: 1702723951.443876 
+  Status: running 
+  Username: DESKTOP-91K1AQU\Hp 
+  Connections: [] 
+  Number of Threads: 24 
+---------------------------------------------------------------
+---------------------------------------------------------------
+Process Info for PID 16016: 
+  PID: 16016
+  Name: chrome.exe 
+  Path: C:\Program Files\Google\Chrome\Application\chrome.exe 
+  CPU Percent: 0.0 
+  Memory Info: rss: 28057600, vms: 58949632 
+  Create Time: 1702731033.7794273 
+  Status: running 
+  Username: DESKTOP-91K1AQU\Hp 
+  Connections: [] 
+  Number of Threads: 24 
+---------------------------------------------------------------
+---------------------------------------------------------------
+Process Info for PID 16028: 
+  PID: 16028
+  Name: RuntimeBroker.exe 
+  Path: C:\Windows\System32\RuntimeBroker.exe 
+  CPU Percent: 0.0 
+  Memory Info: rss: 7663616, vms: 1564672 
+  Create Time: 1702734704.2981665 
+  Status: running 
+  Username: DESKTOP-91K1AQU\Hp 
+  Connections: [] 
+  Number of Threads: 1 
+---------------------------------------------------------------
