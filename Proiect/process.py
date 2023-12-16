@@ -93,7 +93,6 @@ def run_command(path, parameters):
         command = [path]
         command.extend(parameters)
         subprocess.run(command)
-        #subprocess.run([path] + parameters)
         print("Process started succesfully. ")
     except Exception as e:
         print(f"Error: {e}")
