@@ -1,6 +1,4 @@
-import os
 import subprocess
-import sys
 import psutil
 
 
@@ -21,7 +19,7 @@ def help_specific_command(command):
 
 def exists_command(command):
     try:
-        list_commands = ["view", "suspend", "resume", "kill", "run", "help", "exit"]
+        list_commands = ["view", "suspend", "resume", "kill", "run", "help"]
         if command not in list_commands:
             raise ValueError("The command entered is not valid.")
         return True
@@ -53,7 +51,6 @@ def is_syntax_correct(command, args):
 def view_command():
     try:
         file = open("info.txt", "w")
-
     except Exception as e:
         print(f"Unable to open the file: {e}")
 
@@ -90,6 +87,10 @@ def view_command():
 
 def run_command(path, parameters):
     try:
+        # la run, in cerinta, sintaxa este run <path> <parametri>
+        # functia run din subprocess are ca prin argument comanda ce trebuie executata
+        # pt a determina comanda cream o lista ce contine path-ul + argumentele
+        
         command = [path]
         command.extend(parameters)
         subprocess.run(command)
@@ -100,9 +101,13 @@ def run_command(path, parameters):
 
 def kill_command(pid):
     try:
+
+        # determinam procesul cu pid ul respectiv
+        # oprim acel proces cu ajutorul functiei terminate
+
         process = psutil.Process(pid)
         process.terminate()
-        print("Process killed succesfully. ")
+        print(f"Process with pid {pid} killed succesfully. ")
     except Exception as e:
         print(f"Error: {e}")
 
@@ -145,7 +150,7 @@ if __name__ == "__main__":
         parts = user_input.split()
 
         # print(len(parts))
-        # primul cuvant reprezinta comanda propriu-zisa
+        # primul cuvant reprezinta comanda propriu-zisa: run, view, etc.
         command = parts[0]
 
         # celelalte cuvinte sunt argumentele comenzii

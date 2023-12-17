@@ -1,0 +1,11 @@
+Comenzi: run, view, kill, suspend, resume 
+
+Exemplu de comenzi:
+view 
+run C:\\Program Files\\Mozilla Firefox\\firefox.exe
+run C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe
+run C:\Windows\System32\calc.exe
+run python C:\\Users\\Hp\\Desktop\\Python\\test1.py Cristina  
+kill/suspend/resume PID (Task Manager pentru a vedea ce pid au procesele)
+
+
