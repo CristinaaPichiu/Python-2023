@@ -143,12 +143,12 @@ if __name__ == "__main__":
     print("7. exit")
 
     while True:
-        user_input = input("Enter a command: ")
-        if user_input.lower() == 'exit':
+        text = input("Enter a command: ")
+        if text.lower() == 'exit':
             break
 
         # impart comanda in cuvinte
-        parts = user_input.split()
+        parts = text.split()
 
         # print(len(parts))
         # primul cuvant reprezinta comanda propriu-zisa: run, view, etc.
