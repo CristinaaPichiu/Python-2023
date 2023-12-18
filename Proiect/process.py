@@ -1,18 +1,17 @@
 import subprocess
 import psutil
 
-
 def help_specific_command(command):
     if command == "view":
-        print("view: displays information about all running processes.")
+        print("view command: displays info like: pid, name, path etc about processes.")
     elif command == "suspend":
-        print("suspend <PID>: suspends execution of the process with the specified PID.")
+        print("suspend command: suspends a process ~ please specify the pid).")
     elif command == "resume":
-        print("resume <PID>: resumes execution of the process with the specified PID.")
+        print("resume command: resumes ( start again after suspend ) a process ~ please specify a pid.")
     elif command == "kill":
-        print("kill <PID>: stops the process with the specified PID.")
+        print("kill command: stops a process ~ please specify the pid for the process.")
     elif command == "run":
-        print("run  <path> <arguments>: runs a new process with the specified path and arguments.")
+        print("run command: runs a new process (please specify the path and the arguments of the process!)")
     else:
         print(f"Command: '{command}' doesnt exists.")
 
@@ -54,6 +53,8 @@ def view_command():
     except Exception as e:
         print(f"Unable to open the file: {e}")
 
+    # fiecare element din iterator este o instanță a clasei psutil.Process
+
     for process in psutil.process_iter():
         try:
             pid = process.pid
@@ -75,9 +76,9 @@ def view_command():
         except psutil.NoSuchProcess as e:
             print(f"Error: Process with PID {pid} does not exist. {e}")
         except psutil.AccessDenied as e:
-            print(f"Error: Access denied when fetching data for process with PID {pid}. {e}")
+            print(f"Error: Access denied for process with PID {pid}. {e}")
         except Exception as e:
-            print(f"Error occuring during fetching data for process with PID {pid}: {e}")
+            print(f"Error occuring for process with PID {pid}: {e}")
     print("The information is displayed in the info.txt file")
     try:
         file.close()
@@ -90,7 +91,7 @@ def run_command(path, parameters):
         # la run, in cerinta, sintaxa este run <path> <parametri>
         # functia run din subprocess are ca prin argument comanda ce trebuie executata
         # pt a determina comanda cream o lista ce contine path-ul + argumentele
-        
+
         command = [path]
         command.extend(parameters)
         subprocess.run(command)
